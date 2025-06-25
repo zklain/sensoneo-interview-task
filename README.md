@@ -81,30 +81,39 @@ While we've provided a solid foundation, **you're free to:**
 
 - Display all products in a table format
 - Include relevant product information (name, packaging, deposit, volume, etc.)
-- **Implement filtering by product active/inactive status**
+- Implement filtering by product active/inactive status
 - Make sure the table can handle large data sets
 
 ## 🚀 **Getting Started**
 
-1. **Start the API server**:
+### **Step 1: Clone the Repository**
 
-   ```bash
-   cd server
-   npm install
-   npm run dev
-   ```
+```bash
+git clone https://sensoneo@dev.azure.com/sensoneo/react-interview-tasks/_git/senior-react-interview-task
+cd senior-react-interview-task
+```
 
-2. **Start the client application**:
+### **Step 2: Start the API Server**
 
-   ```bash
-   # In the root directory
-   npm install
-   npm run dev
-   ```
+```bash
+# In the root directory
+cd server
+npm install
+npm run dev
+```
 
-3. **Open your browser**:
-   - Client: `http://localhost:5173`
-   - API Documentation: `http://localhost:3001/api-docs`
+### **Step 3: Start the Client Application**
+
+```bash
+# In the root directory (not in server folder)
+npm install
+npm run dev
+```
+
+### **Step 4: Open Your Browser**
+
+- Client: `http://localhost:5173`
+- API Documentation: `http://localhost:3001/api-docs`
 
 ## 📝 **Notes**
 
@@ -126,5 +135,41 @@ While we've provided a solid foundation, **you're free to:**
 - Attention to detail in matching the design
 
 You're not expected to finish everything, but it's better to do less and properly than to do more and poorly.
+
+## 📤 **How to Submit Your Solution**
+
+⚠️ **Important**: Do NOT push your changes to our original repository. You must create your own repository for your solution.
+
+1. **Create your own repository**:
+   - Create a **public repository** on either:
+     - **GitHub** (github.com)
+     - **Microsoft Azure DevOps** (dev.azure.com)
+
+2. **Set up your working repository**:
+
+   ```bash
+   # After cloning our repository and making your changes
+   git remote remove origin
+   git remote add origin https://github.com/your-username/your-repo-name.git
+   # (or your Azure DevOps URL)
+
+   # Squash all your work into a single commit
+   git add .
+   git commit -m "Complete interview tasks: Dashboard and Products table with filtering"
+   git push -u origin main
+   ```
+
+   Please **squash all your commits** into a single commit before submission. This makes the code review process cleaner and more focused.
+
+3. **Submit the link**:
+   - Send us the public repository URL
+   - Make sure the repository is accessible without authentication
+
+**Example submissions**:
+
+```
+GitHub: https://github.com/your-username/sensoneo-interview-task
+Azure: https://dev.azure.com/your-org/your-project/_git/repo-name
+```
 
 Good luck! 🚀
