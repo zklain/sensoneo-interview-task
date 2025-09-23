@@ -73,7 +73,18 @@ While we've provided a solid foundation, **you're free to:**
 - Match the design and layout shown in the mockup
 - Fetch real data from the API endpoints (real data might differ from values in design mockup)
 
-### Task 2: Products Table with Filtering
+### Task 2: Create a Form for New Product (Homepage)
+
+**Objective**: Implement a form that creates a new product. Design is up to you.
+
+**Requirements**:
+
+- Display form in a modal window on click "Add new product"
+- Include all fields according to API docs for creating a new product
+- Don't forget validation on fields and error handling
+- Refresh all related data after successfully creating a product
+
+### Task 3: Products Table with Filtering
 
 **Objective**: Create a products page with a table that allows filtering by active state. Design is up to you.
 
@@ -135,6 +146,8 @@ npm run dev
 - Attention to detail in matching the design
 
 You're not expected to finish everything, but it's better to do less and properly than to do more and poorly.
+Feel free to include some **short** notes about your solution if its not obvious from the code (why your feature is done a certain way, what you would improve if you had more time, any known limitations...)
+The task will be reviewed by your future colleagues, we are interested in how you think about the solution.
 
 ## 📤 **How to Submit Your Solution**
 

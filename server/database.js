@@ -123,6 +123,19 @@ class Database {
     });
   }
 
+  // Helper method to convert SQLite integers to booleans for API responses
+  convertProductForAPI(product) {
+    if (!product) return product;
+    return {
+      ...product,
+      active: Boolean(product.active),
+    };
+  }
+
+  convertProductsForAPI(products) {
+    return products.map((product) => this.convertProductForAPI(product));
+  }
+
   // Company operations
   async getAllCompanies() {
     return this.all("SELECT * FROM companies ORDER BY registeredAt DESC");
@@ -133,7 +146,8 @@ class Database {
   }
 
   async createCompany(company) {
-    const sql = "INSERT INTO companies (id, name, registeredAt) VALUES (?, ?, ?)";
+    const sql =
+      "INSERT INTO companies (id, name, registeredAt) VALUES (?, ?, ?)";
     return this.run(sql, [company.id, company.name, company.registeredAt]);
   }
 
@@ -147,12 +161,26 @@ class Database {
   }
 
   async createUser(user) {
-    const sql = "INSERT INTO users (id, companyId, firstName, lastName, email, createdAt) VALUES (?, ?, ?, ?, ?, ?)";
-    return this.run(sql, [user.id, user.companyId, user.firstName, user.lastName, user.email, user.createdAt]);
+    const sql =
+      "INSERT INTO users (id, companyId, firstName, lastName, email, createdAt) VALUES (?, ?, ?, ?, ?, ?)";
+    return this.run(sql, [
+      user.id,
+      user.companyId,
+      user.firstName,
+      user.lastName,
+      user.email,
+      user.createdAt,
+    ]);
   }
 
   // Product operations
-  async getAllProducts({ page = 1, limit = 18, active = null, sort = "registeredAt", order = "desc" } = {}) {
+  async getAllProducts({
+    page = 1,
+    limit = 18,
+    active = null,
+    sort = "registeredAt",
+    order = "desc",
+  } = {}) {
     let sql = "SELECT * FROM products";
     let countSql = "SELECT COUNT(*) as total FROM products";
     const params = [];
@@ -196,7 +224,7 @@ class Database {
     const totalPages = Math.ceil(total / limit);
 
     return {
-      data: products,
+      data: this.convertProductsForAPI(products),
       pagination: {
         currentPage: page,
         totalPages,
@@ -209,7 +237,8 @@ class Database {
   }
 
   async getProductById(id) {
-    return this.get("SELECT * FROM products WHERE id = ?", [id]);
+    const product = await this.get("SELECT * FROM products WHERE id = ?", [id]);
+    return this.convertProductForAPI(product);
   }
 
   async createProduct(product) {
