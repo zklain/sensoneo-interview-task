@@ -97,11 +97,21 @@ While we've provided a solid foundation, **you're free to:**
 
 ## 🚀 **Getting Started**
 
-### **Step 1: Clone the Repository**
+### **Step 1: Clone the repository and push into the new one without modification**
+
+⚠️ **Important**: Do NOT push your changes to our original repository. You must create your own repository for your solution.
+
+- Create a **public repository** on either:
+   - **GitHub** (github.com)
+   - **Microsoft Azure DevOps** (dev.azure.com)
 
 ```bash
 git clone https://sensoneo@dev.azure.com/sensoneo/react-interview-tasks/_git/senior-react-interview-task
 cd senior-react-interview-task
+git remote remove origin
+# (or your Azure DevOps URL)
+git remote add origin https://github.com/your-username/your-repo-name.git
+git push --set-upstream origin 
 ```
 
 ### **Step 2: Start the API Server**
@@ -113,7 +123,7 @@ npm install
 npm run dev
 ```
 
-### **Step 3: Start the Client Application**
+### **Step 4: Start the Client Application**
 
 ```bash
 # In the root directory (not in server folder)
@@ -121,7 +131,7 @@ npm install
 npm run dev
 ```
 
-### **Step 4: Open Your Browser**
+### **Step 5: Open Your Browser**
 
 - Client: `http://localhost:5173`
 - API Documentation: `http://localhost:3001/api-docs`
@@ -151,22 +161,9 @@ The task will be reviewed by your future colleagues, we are interested in how yo
 
 ## 📤 **How to Submit Your Solution**
 
-⚠️ **Important**: Do NOT push your changes to our original repository. You must create your own repository for your solution.
 
-1. **Create your own repository**:
-   - Create a **public repository** on either:
-     - **GitHub** (github.com)
-     - **Microsoft Azure DevOps** (dev.azure.com)
-
-2. **Set up your working repository**:
-
+   ### Squash all your work into a single commit
    ```bash
-   # After cloning our repository and making your changes
-   git remote remove origin
-   git remote add origin https://github.com/your-username/your-repo-name.git
-   # (or your Azure DevOps URL)
-
-   # Squash all your work into a single commit
    git add .
    git commit -m "Complete interview tasks: Dashboard and Products table with filtering"
    git push -u origin main
