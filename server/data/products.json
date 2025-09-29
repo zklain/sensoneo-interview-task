@@ -7,7 +7,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-09-27T00:28:00.000Z",
+    "registeredAt": "2022-09-27T00:28:00.000Z",
     "active": true
   },
   {
@@ -29,7 +29,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-04-04T08:42:00.000Z",
+    "registeredAt": "2022-04-04T08:42:00.000Z",
     "active": true
   },
   {
@@ -62,7 +62,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-01-19T20:33:00.000Z",
+    "registeredAt": "2022-01-19T20:33:00.000Z",
     "active": true
   },
   {
@@ -84,7 +84,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-08-08T15:28:00.000Z",
+    "registeredAt": "2022-08-08T15:28:00.000Z",
     "active": true
   },
   {
@@ -95,7 +95,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-06-17T13:39:00.000Z",
+    "registeredAt": "2022-06-17T13:39:00.000Z",
     "active": true
   },
   {
@@ -128,7 +128,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-08-17T17:38:00.000Z",
+    "registeredAt": "2022-08-17T17:38:00.000Z",
     "active": true
   },
   {
@@ -150,7 +150,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 1500,
-    "registeredAt": "2025-05-15T19:12:00.000Z",
+    "registeredAt": "2022-05-15T19:12:00.000Z",
     "active": true
   },
   {
@@ -183,7 +183,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-05-13T03:41:00.000Z",
+    "registeredAt": "2022-05-13T03:41:00.000Z",
     "active": true
   },
   {
@@ -194,7 +194,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-03-02T08:01:00.000Z",
+    "registeredAt": "2022-03-02T08:01:00.000Z",
     "active": true
   },
   {
@@ -249,7 +249,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-01-23T05:31:00.000Z",
+    "registeredAt": "2022-01-23T05:31:00.000Z",
     "active": true
   },
   {
@@ -304,7 +304,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-11-06T18:10:00.000Z",
+    "registeredAt": "2022-11-06T18:10:00.000Z",
     "active": true
   },
   {
@@ -315,7 +315,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-08-15T10:39:00.000Z",
+    "registeredAt": "2022-08-15T10:39:00.000Z",
     "active": true
   },
   {
@@ -337,7 +337,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-10-25T13:11:00.000Z",
+    "registeredAt": "2022-10-25T13:11:00.000Z",
     "active": true
   },
   {
@@ -348,7 +348,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-02-20T03:24:00.000Z",
+    "registeredAt": "2022-02-20T03:24:00.000Z",
     "active": true
   },
   {
@@ -381,7 +381,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-03-03T01:26:00.000Z",
+    "registeredAt": "2022-03-03T01:26:00.000Z",
     "active": true
   },
   {
@@ -392,7 +392,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-04-27T10:32:00.000Z",
+    "registeredAt": "2022-04-27T10:32:00.000Z",
     "active": false
   },
   {
@@ -447,7 +447,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-04-14T00:43:00.000Z",
+    "registeredAt": "2022-04-14T00:43:00.000Z",
     "active": true
   },
   {
@@ -458,7 +458,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-06-20T03:31:00.000Z",
+    "registeredAt": "2022-06-20T03:31:00.000Z",
     "active": true
   },
   {
@@ -469,7 +469,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 750,
-    "registeredAt": "2025-08-22T00:51:00.000Z",
+    "registeredAt": "2022-08-22T00:51:00.000Z",
     "active": true
   },
   {
@@ -480,7 +480,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-04-15T09:25:00.000Z",
+    "registeredAt": "2022-04-15T09:25:00.000Z",
     "active": true
   },
   {
@@ -502,7 +502,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-08-02T19:29:00.000Z",
+    "registeredAt": "2022-08-02T19:29:00.000Z",
     "active": true
   },
   {
@@ -535,7 +535,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-07-18T10:38:00.000Z",
+    "registeredAt": "2022-07-18T10:38:00.000Z",
     "active": true
   },
   {
@@ -557,7 +557,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-08-20T01:27:00.000Z",
+    "registeredAt": "2022-08-20T01:27:00.000Z",
     "active": true
   },
   {
@@ -667,7 +667,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-08-23T12:31:00.000Z",
+    "registeredAt": "2022-08-23T12:31:00.000Z",
     "active": true
   },
   {
@@ -689,7 +689,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-04-26T23:37:00.000Z",
+    "registeredAt": "2022-04-26T23:37:00.000Z",
     "active": true
   },
   {
@@ -700,7 +700,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-06-16T20:17:00.000Z",
+    "registeredAt": "2022-06-16T20:17:00.000Z",
     "active": true
   },
   {
@@ -722,7 +722,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-09-25T11:13:00.000Z",
+    "registeredAt": "2022-09-25T11:13:00.000Z",
     "active": true
   },
   {
@@ -744,7 +744,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-02-20T11:48:00.000Z",
+    "registeredAt": "2022-02-20T11:48:00.000Z",
     "active": true
   },
   {
@@ -766,7 +766,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-10-22T16:27:00.000Z",
+    "registeredAt": "2022-10-22T16:27:00.000Z",
     "active": true
   },
   {
@@ -777,7 +777,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-06-14T10:41:00.000Z",
+    "registeredAt": "2022-06-14T10:41:00.000Z",
     "active": true
   },
   {
@@ -788,7 +788,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-03-18T06:25:00.000Z",
+    "registeredAt": "2022-03-18T06:25:00.000Z",
     "active": true
   },
   {
@@ -799,7 +799,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-08-15T14:27:00.000Z",
+    "registeredAt": "2022-08-15T14:27:00.000Z",
     "active": true
   },
   {
@@ -810,7 +810,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-09-30T22:44:00.000Z",
+    "registeredAt": "2022-09-30T22:44:00.000Z",
     "active": true
   },
   {
@@ -821,7 +821,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-09-18T02:17:00.000Z",
+    "registeredAt": "2022-09-18T02:17:00.000Z",
     "active": true
   },
   {
@@ -832,7 +832,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-06-20T17:37:00.000Z",
+    "registeredAt": "2022-06-20T17:37:00.000Z",
     "active": true
   },
   {
@@ -865,7 +865,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-08-06T19:35:00.000Z",
+    "registeredAt": "2022-08-06T19:35:00.000Z",
     "active": true
   },
   {
@@ -876,7 +876,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-11-28T01:24:00.000Z",
+    "registeredAt": "2022-11-28T01:24:00.000Z",
     "active": true
   },
   {
@@ -887,7 +887,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-11-23T03:37:00.000Z",
+    "registeredAt": "2022-11-23T03:37:00.000Z",
     "active": true
   },
   {
@@ -909,7 +909,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-03-18T15:56:00.000Z",
+    "registeredAt": "2022-03-18T15:56:00.000Z",
     "active": true
   },
   {
@@ -920,7 +920,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-04-19T15:01:00.000Z",
+    "registeredAt": "2022-04-19T15:01:00.000Z",
     "active": true
   },
   {
@@ -942,7 +942,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-11-05T00:39:00.000Z",
+    "registeredAt": "2022-11-05T00:39:00.000Z",
     "active": true
   },
   {
@@ -953,7 +953,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-10-12T03:14:00.000Z",
+    "registeredAt": "2022-10-12T03:14:00.000Z",
     "active": true
   },
   {
@@ -964,7 +964,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-03-31T21:52:00.000Z",
+    "registeredAt": "2022-03-31T21:52:00.000Z",
     "active": true
   },
   {
@@ -975,7 +975,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-12-04T15:24:00.000Z",
+    "registeredAt": "2022-12-04T15:24:00.000Z",
     "active": true
   },
   {
@@ -986,7 +986,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-07-22T20:59:00.000Z",
+    "registeredAt": "2022-07-22T20:59:00.000Z",
     "active": true
   },
   {
@@ -1030,7 +1030,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-01-16T13:37:00.000Z",
+    "registeredAt": "2022-01-16T13:37:00.000Z",
     "active": true
   },
   {
@@ -1052,7 +1052,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-02-02T10:03:00.000Z",
+    "registeredAt": "2022-02-02T10:03:00.000Z",
     "active": true
   },
   {
@@ -1074,7 +1074,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-12-27T10:51:00.000Z",
+    "registeredAt": "2022-12-27T10:51:00.000Z",
     "active": true
   },
   {
@@ -1085,7 +1085,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-11-21T17:06:00.000Z",
+    "registeredAt": "2022-11-21T17:06:00.000Z",
     "active": true
   },
   {
@@ -1107,7 +1107,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-02-08T11:45:00.000Z",
+    "registeredAt": "2022-02-08T11:45:00.000Z",
     "active": true
   },
   {
@@ -1129,7 +1129,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 330,
-    "registeredAt": "2025-08-03T08:14:00.000Z",
+    "registeredAt": "2022-08-03T08:14:00.000Z",
     "active": true
   },
   {
@@ -1184,7 +1184,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-04-26T12:25:00.000Z",
+    "registeredAt": "2022-04-26T12:25:00.000Z",
     "active": true
   },
   {
@@ -1195,7 +1195,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-08-18T12:46:00.000Z",
+    "registeredAt": "2022-08-18T12:46:00.000Z",
     "active": true
   },
   {
@@ -1206,7 +1206,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-02-06T11:54:00.000Z",
+    "registeredAt": "2022-02-06T11:54:00.000Z",
     "active": true
   },
   {
@@ -1217,7 +1217,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-08-11T04:36:00.000Z",
+    "registeredAt": "2022-08-11T04:36:00.000Z",
     "active": true
   },
   {
@@ -1261,7 +1261,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-06-09T07:54:00.000Z",
+    "registeredAt": "2022-06-09T07:54:00.000Z",
     "active": true
   },
   {
@@ -1272,7 +1272,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-01-16T17:30:00.000Z",
+    "registeredAt": "2022-01-16T17:30:00.000Z",
     "active": true
   },
   {
@@ -1283,7 +1283,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-05-08T03:11:00.000Z",
+    "registeredAt": "2022-05-08T03:11:00.000Z",
     "active": true
   },
   {
@@ -1294,7 +1294,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-07-05T23:31:00.000Z",
+    "registeredAt": "2022-07-05T23:31:00.000Z",
     "active": true
   },
   {
@@ -1338,7 +1338,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-09-15T08:59:00.000Z",
+    "registeredAt": "2022-09-15T08:59:00.000Z",
     "active": true
   },
   {
@@ -1349,7 +1349,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 1500,
-    "registeredAt": "2025-04-15T02:23:00.000Z",
+    "registeredAt": "2022-04-15T02:23:00.000Z",
     "active": true
   },
   {
@@ -1360,7 +1360,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-12-17T15:36:00.000Z",
+    "registeredAt": "2022-12-17T15:36:00.000Z",
     "active": true
   },
   {
@@ -1382,7 +1382,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-09-21T00:20:00.000Z",
+    "registeredAt": "2022-09-21T00:20:00.000Z",
     "active": true
   },
   {
@@ -1404,7 +1404,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 250,
-    "registeredAt": "2025-04-26T20:13:00.000Z",
+    "registeredAt": "2022-04-26T20:13:00.000Z",
     "active": true
   },
   {
@@ -1415,7 +1415,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-03-09T22:55:00.000Z",
+    "registeredAt": "2022-03-09T22:55:00.000Z",
     "active": true
   },
   {
@@ -1437,7 +1437,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-12-01T09:32:00.000Z",
+    "registeredAt": "2022-12-01T09:32:00.000Z",
     "active": true
   },
   {
@@ -1448,7 +1448,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 750,
-    "registeredAt": "2025-03-24T23:23:00.000Z",
+    "registeredAt": "2022-03-24T23:23:00.000Z",
     "active": true
   },
   {
@@ -1525,7 +1525,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-08-13T16:54:00.000Z",
+    "registeredAt": "2022-08-13T16:54:00.000Z",
     "active": true
   },
   {
@@ -1547,7 +1547,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-12-26T09:26:00.000Z",
+    "registeredAt": "2022-12-26T09:26:00.000Z",
     "active": true
   },
   {
@@ -1569,7 +1569,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-05-13T06:20:00.000Z",
+    "registeredAt": "2022-05-13T06:20:00.000Z",
     "active": true
   },
   {
@@ -1591,7 +1591,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-04-06T08:14:00.000Z",
+    "registeredAt": "2022-04-06T08:14:00.000Z",
     "active": true
   },
   {
@@ -1624,7 +1624,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-03-23T20:00:00.000Z",
+    "registeredAt": "2022-03-23T20:00:00.000Z",
     "active": true
   },
   {
@@ -1657,7 +1657,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 750,
-    "registeredAt": "2025-04-23T21:03:00.000Z",
+    "registeredAt": "2022-04-23T21:03:00.000Z",
     "active": true
   },
   {
@@ -1690,7 +1690,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-07-21T09:37:00.000Z",
+    "registeredAt": "2022-07-21T09:37:00.000Z",
     "active": true
   },
   {
@@ -1701,7 +1701,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 250,
-    "registeredAt": "2025-01-12T21:01:00.000Z",
+    "registeredAt": "2022-01-12T21:01:00.000Z",
     "active": true
   },
   {
@@ -1767,7 +1767,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-06-24T21:07:00.000Z",
+    "registeredAt": "2022-06-24T21:07:00.000Z",
     "active": true
   },
   {
@@ -1778,7 +1778,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 330,
-    "registeredAt": "2025-07-13T07:40:00.000Z",
+    "registeredAt": "2022-07-13T07:40:00.000Z",
     "active": true
   },
   {
@@ -1811,7 +1811,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 250,
-    "registeredAt": "2025-11-28T04:24:00.000Z",
+    "registeredAt": "2022-11-28T04:24:00.000Z",
     "active": true
   },
   {
@@ -1822,7 +1822,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-09-11T20:49:00.000Z",
+    "registeredAt": "2022-09-11T20:49:00.000Z",
     "active": true
   },
   {
@@ -1833,7 +1833,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-10-18T04:59:00.000Z",
+    "registeredAt": "2022-10-18T04:59:00.000Z",
     "active": true
   },
   {
@@ -1844,7 +1844,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-12-09T06:53:00.000Z",
+    "registeredAt": "2022-12-09T06:53:00.000Z",
     "active": true
   },
   {
@@ -1855,7 +1855,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-10-17T12:23:00.000Z",
+    "registeredAt": "2022-10-17T12:23:00.000Z",
     "active": true
   },
   {
@@ -1877,7 +1877,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-09-24T21:08:00.000Z",
+    "registeredAt": "2022-09-24T21:08:00.000Z",
     "active": true
   },
   {
@@ -1943,7 +1943,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-06-10T07:13:00.000Z",
+    "registeredAt": "2022-06-10T07:13:00.000Z",
     "active": true
   },
   {
@@ -1965,7 +1965,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-01-23T05:58:00.000Z",
+    "registeredAt": "2022-01-23T05:58:00.000Z",
     "active": true
   },
   {
@@ -1998,7 +1998,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-05-06T13:23:00.000Z",
+    "registeredAt": "2022-05-06T13:23:00.000Z",
     "active": true
   },
   {
@@ -2009,7 +2009,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 750,
-    "registeredAt": "2025-03-08T18:11:00.000Z",
+    "registeredAt": "2022-03-08T18:11:00.000Z",
     "active": true
   },
   {
@@ -2031,7 +2031,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-02-15T06:39:00.000Z",
+    "registeredAt": "2022-02-15T06:39:00.000Z",
     "active": true
   },
   {
@@ -2042,7 +2042,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-01-23T18:15:00.000Z",
+    "registeredAt": "2022-01-23T18:15:00.000Z",
     "active": true
   },
   {
@@ -2053,7 +2053,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-02-22T16:18:00.000Z",
+    "registeredAt": "2022-02-22T16:18:00.000Z",
     "active": true
   },
   {
@@ -2064,7 +2064,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 1500,
-    "registeredAt": "2025-04-26T07:14:00.000Z",
+    "registeredAt": "2022-04-26T07:14:00.000Z",
     "active": true
   },
   {
@@ -2097,7 +2097,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 1500,
-    "registeredAt": "2025-05-09T23:54:00.000Z",
+    "registeredAt": "2022-05-09T23:54:00.000Z",
     "active": true
   },
   {
@@ -2152,7 +2152,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-04-02T22:35:00.000Z",
+    "registeredAt": "2022-04-02T22:35:00.000Z",
     "active": true
   },
   {
@@ -2174,7 +2174,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-09-21T14:41:00.000Z",
+    "registeredAt": "2022-09-21T14:41:00.000Z",
     "active": true
   },
   {
@@ -2218,7 +2218,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-11-09T19:50:00.000Z",
+    "registeredAt": "2022-11-09T19:50:00.000Z",
     "active": true
   },
   {
@@ -2240,7 +2240,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-04-08T21:41:00.000Z",
+    "registeredAt": "2022-04-08T21:41:00.000Z",
     "active": true
   },
   {
@@ -2251,7 +2251,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-11-09T03:21:00.000Z",
+    "registeredAt": "2022-11-09T03:21:00.000Z",
     "active": true
   },
   {
@@ -2262,7 +2262,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-11-09T02:16:00.000Z",
+    "registeredAt": "2022-11-09T02:16:00.000Z",
     "active": true
   },
   {
@@ -2284,7 +2284,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 1500,
-    "registeredAt": "2025-05-14T10:26:00.000Z",
+    "registeredAt": "2022-05-14T10:26:00.000Z",
     "active": true
   },
   {
@@ -2328,7 +2328,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-12-13T07:54:00.000Z",
+    "registeredAt": "2022-12-13T07:54:00.000Z",
     "active": true
   },
   {
@@ -2339,7 +2339,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 2000,
-    "registeredAt": "2025-03-28T14:49:00.000Z",
+    "registeredAt": "2022-03-28T14:49:00.000Z",
     "active": true
   },
   {
@@ -2372,7 +2372,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-07-05T21:49:00.000Z",
+    "registeredAt": "2022-07-05T21:49:00.000Z",
     "active": true
   },
   {
@@ -2383,7 +2383,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 330,
-    "registeredAt": "2025-01-14T05:36:00.000Z",
+    "registeredAt": "2022-01-14T05:36:00.000Z",
     "active": true
   },
   {
@@ -2394,7 +2394,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-08-10T03:49:00.000Z",
+    "registeredAt": "2022-08-10T03:49:00.000Z",
     "active": true
   },
   {
@@ -2416,7 +2416,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-12-09T18:23:00.000Z",
+    "registeredAt": "2022-12-09T18:23:00.000Z",
     "active": true
   },
   {
@@ -2427,7 +2427,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-08-04T20:11:00.000Z",
+    "registeredAt": "2022-08-04T20:11:00.000Z",
     "active": true
   },
   {
@@ -2460,7 +2460,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 1500,
-    "registeredAt": "2025-09-21T08:11:00.000Z",
+    "registeredAt": "2022-09-21T08:11:00.000Z",
     "active": true
   },
   {
@@ -2471,7 +2471,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-08-14T10:12:00.000Z",
+    "registeredAt": "2022-08-14T10:12:00.000Z",
     "active": true
   },
   {
@@ -2526,7 +2526,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-08-18T22:41:00.000Z",
+    "registeredAt": "2022-08-18T22:41:00.000Z",
     "active": true
   },
   {
@@ -2548,7 +2548,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-01-19T21:38:00.000Z",
+    "registeredAt": "2022-01-19T21:38:00.000Z",
     "active": false
   },
   {
@@ -2559,7 +2559,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-08-18T10:02:00.000Z",
+    "registeredAt": "2022-08-18T10:02:00.000Z",
     "active": true
   },
   {
@@ -2592,7 +2592,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 1000,
-    "registeredAt": "2025-10-16T11:29:00.000Z",
+    "registeredAt": "2022-10-16T11:29:00.000Z",
     "active": false
   },
   {
@@ -2603,7 +2603,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-07-12T03:42:00.000Z",
+    "registeredAt": "2022-07-12T03:42:00.000Z",
     "active": true
   },
   {
@@ -2625,7 +2625,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-10-12T06:32:00.000Z",
+    "registeredAt": "2022-10-12T06:32:00.000Z",
     "active": true
   },
   {
@@ -2636,7 +2636,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-12-17T23:40:00.000Z",
+    "registeredAt": "2022-12-17T23:40:00.000Z",
     "active": true
   },
   {
@@ -2658,7 +2658,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-02-20T02:59:00.000Z",
+    "registeredAt": "2022-02-20T02:59:00.000Z",
     "active": true
   },
   {
@@ -2691,7 +2691,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-01-04T11:15:00.000Z",
+    "registeredAt": "2022-01-04T11:15:00.000Z",
     "active": true
   },
   {
@@ -2724,7 +2724,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-08-26T03:34:00.000Z",
+    "registeredAt": "2022-08-26T03:34:00.000Z",
     "active": true
   },
   {
@@ -2746,7 +2746,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-10-17T23:10:00.000Z",
+    "registeredAt": "2022-10-17T23:10:00.000Z",
     "active": true
   },
   {
@@ -2768,7 +2768,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-07-01T23:33:00.000Z",
+    "registeredAt": "2022-07-01T23:33:00.000Z",
     "active": true
   },
   {
@@ -2779,7 +2779,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-09-24T05:05:00.000Z",
+    "registeredAt": "2022-09-24T05:05:00.000Z",
     "active": true
   },
   {
@@ -2790,7 +2790,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 2000,
-    "registeredAt": "2025-06-26T18:55:00.000Z",
+    "registeredAt": "2022-06-26T18:55:00.000Z",
     "active": true
   },
   {
@@ -2801,7 +2801,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-09-19T14:29:00.000Z",
+    "registeredAt": "2022-09-19T14:29:00.000Z",
     "active": true
   },
   {
@@ -2823,7 +2823,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 2000,
-    "registeredAt": "2025-03-22T10:06:00.000Z",
+    "registeredAt": "2022-03-22T10:06:00.000Z",
     "active": true
   },
   {
@@ -2867,7 +2867,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-03-25T13:21:00.000Z",
+    "registeredAt": "2022-03-25T13:21:00.000Z",
     "active": true
   },
   {
@@ -2878,7 +2878,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-08-12T10:32:00.000Z",
+    "registeredAt": "2022-08-12T10:32:00.000Z",
     "active": true
   },
   {
@@ -2900,7 +2900,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-08-18T01:19:00.000Z",
+    "registeredAt": "2022-08-18T01:19:00.000Z",
     "active": false
   },
   {
@@ -2911,7 +2911,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 250,
-    "registeredAt": "2025-09-08T08:56:00.000Z",
+    "registeredAt": "2022-09-08T08:56:00.000Z",
     "active": true
   },
   {
@@ -2944,7 +2944,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-10-17T16:25:00.000Z",
+    "registeredAt": "2022-10-17T16:25:00.000Z",
     "active": true
   },
   {
@@ -2955,7 +2955,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 2000,
-    "registeredAt": "2025-05-10T08:31:00.000Z",
+    "registeredAt": "2022-05-10T08:31:00.000Z",
     "active": true
   },
   {
@@ -2966,7 +2966,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-05-07T07:27:00.000Z",
+    "registeredAt": "2022-05-07T07:27:00.000Z",
     "active": true
   },
   {
@@ -3032,7 +3032,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-04-08T09:47:00.000Z",
+    "registeredAt": "2022-04-08T09:47:00.000Z",
     "active": true
   },
   {
@@ -3043,7 +3043,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-07-23T11:19:00.000Z",
+    "registeredAt": "2022-07-23T11:19:00.000Z",
     "active": true
   },
   {
@@ -3054,7 +3054,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-08-18T18:51:00.000Z",
+    "registeredAt": "2022-08-18T18:51:00.000Z",
     "active": true
   },
   {
@@ -3087,7 +3087,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-08-08T10:09:00.000Z",
+    "registeredAt": "2022-08-08T10:09:00.000Z",
     "active": true
   },
   {
@@ -3120,7 +3120,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 330,
-    "registeredAt": "2025-08-18T21:16:00.000Z",
+    "registeredAt": "2022-08-18T21:16:00.000Z",
     "active": true
   },
   {
@@ -3131,7 +3131,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-04-16T08:12:00.000Z",
+    "registeredAt": "2022-04-16T08:12:00.000Z",
     "active": true
   },
   {
@@ -3164,7 +3164,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-10-12T12:33:00.000Z",
+    "registeredAt": "2022-10-12T12:33:00.000Z",
     "active": true
   },
   {
@@ -3175,7 +3175,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 1500,
-    "registeredAt": "2025-07-03T18:47:00.000Z",
+    "registeredAt": "2022-07-03T18:47:00.000Z",
     "active": true
   },
   {
@@ -3197,7 +3197,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-10-25T14:23:00.000Z",
+    "registeredAt": "2022-10-25T14:23:00.000Z",
     "active": true
   },
   {
@@ -3230,7 +3230,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-02-19T13:41:00.000Z",
+    "registeredAt": "2022-02-19T13:41:00.000Z",
     "active": true
   },
   {
@@ -3252,7 +3252,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-04-11T21:41:00.000Z",
+    "registeredAt": "2022-04-11T21:41:00.000Z",
     "active": true
   },
   {
@@ -3285,7 +3285,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-02-10T19:00:00.000Z",
+    "registeredAt": "2022-02-10T19:00:00.000Z",
     "active": true
   },
   {
@@ -3296,7 +3296,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-06-08T08:05:00.000Z",
+    "registeredAt": "2022-06-08T08:05:00.000Z",
     "active": true
   },
   {
@@ -3351,7 +3351,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-01-02T02:11:00.000Z",
+    "registeredAt": "2022-01-02T02:11:00.000Z",
     "active": true
   },
   {
@@ -3362,7 +3362,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-08-03T02:44:00.000Z",
+    "registeredAt": "2022-08-03T02:44:00.000Z",
     "active": true
   },
   {
@@ -3384,7 +3384,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-11-12T01:10:00.000Z",
+    "registeredAt": "2022-11-12T01:10:00.000Z",
     "active": true
   },
   {
@@ -3395,7 +3395,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-04-05T22:52:00.000Z",
+    "registeredAt": "2022-04-05T22:52:00.000Z",
     "active": true
   },
   {
@@ -3406,7 +3406,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-03-02T23:19:00.000Z",
+    "registeredAt": "2022-03-02T23:19:00.000Z",
     "active": true
   },
   {
@@ -3428,7 +3428,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-02-11T21:02:00.000Z",
+    "registeredAt": "2022-02-11T21:02:00.000Z",
     "active": true
   },
   {
@@ -3450,7 +3450,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-07-23T04:26:00.000Z",
+    "registeredAt": "2022-07-23T04:26:00.000Z",
     "active": true
   },
   {
@@ -3461,7 +3461,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-09-02T19:13:00.000Z",
+    "registeredAt": "2022-09-02T19:13:00.000Z",
     "active": true
   },
   {
@@ -3472,7 +3472,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-06-08T19:59:00.000Z",
+    "registeredAt": "2022-06-08T19:59:00.000Z",
     "active": true
   },
   {
@@ -3483,7 +3483,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-11-12T23:37:00.000Z",
+    "registeredAt": "2022-11-12T23:37:00.000Z",
     "active": true
   },
   {
@@ -3505,7 +3505,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-01-18T17:28:00.000Z",
+    "registeredAt": "2022-01-18T17:28:00.000Z",
     "active": true
   },
   {
@@ -3516,7 +3516,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-09-24T01:24:00.000Z",
+    "registeredAt": "2022-09-24T01:24:00.000Z",
     "active": false
   },
   {
@@ -3527,7 +3527,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 1000,
-    "registeredAt": "2025-12-01T15:29:00.000Z",
+    "registeredAt": "2022-12-01T15:29:00.000Z",
     "active": true
   },
   {
@@ -3538,7 +3538,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-06-17T19:27:00.000Z",
+    "registeredAt": "2022-06-17T19:27:00.000Z",
     "active": true
   },
   {
@@ -3549,7 +3549,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-04-16T16:28:00.000Z",
+    "registeredAt": "2022-04-16T16:28:00.000Z",
     "active": true
   },
   {
@@ -3582,7 +3582,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-12-19T14:45:00.000Z",
+    "registeredAt": "2022-12-19T14:45:00.000Z",
     "active": true
   },
   {
@@ -3615,7 +3615,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-10-01T02:42:00.000Z",
+    "registeredAt": "2022-10-01T02:42:00.000Z",
     "active": true
   },
   {
@@ -3648,7 +3648,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-02-28T13:55:00.000Z",
+    "registeredAt": "2022-02-28T13:55:00.000Z",
     "active": true
   },
   {
@@ -3659,7 +3659,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-06-13T09:16:00.000Z",
+    "registeredAt": "2022-06-13T09:16:00.000Z",
     "active": true
   },
   {
@@ -3692,7 +3692,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-11-06T16:48:00.000Z",
+    "registeredAt": "2022-11-06T16:48:00.000Z",
     "active": true
   },
   {
@@ -3703,7 +3703,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-04-11T20:35:00.000Z",
+    "registeredAt": "2022-04-11T20:35:00.000Z",
     "active": false
   },
   {
@@ -3725,7 +3725,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-11-02T14:20:00.000Z",
+    "registeredAt": "2022-11-02T14:20:00.000Z",
     "active": true
   },
   {
@@ -3747,7 +3747,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 2000,
-    "registeredAt": "2025-05-25T12:49:00.000Z",
+    "registeredAt": "2022-05-25T12:49:00.000Z",
     "active": true
   },
   {
@@ -3758,7 +3758,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 1500,
-    "registeredAt": "2025-02-07T15:50:00.000Z",
+    "registeredAt": "2022-02-07T15:50:00.000Z",
     "active": true
   },
   {
@@ -3780,7 +3780,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-03-12T07:29:00.000Z",
+    "registeredAt": "2022-03-12T07:29:00.000Z",
     "active": true
   },
   {
@@ -3813,7 +3813,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-10-24T23:20:00.000Z",
+    "registeredAt": "2022-10-24T23:20:00.000Z",
     "active": true
   },
   {
@@ -3857,7 +3857,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-02-27T15:11:00.000Z",
+    "registeredAt": "2022-02-27T15:11:00.000Z",
     "active": true
   },
   {
@@ -3868,7 +3868,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-05-06T14:10:00.000Z",
+    "registeredAt": "2022-05-06T14:10:00.000Z",
     "active": true
   },
   {
@@ -3890,7 +3890,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-03-17T10:44:00.000Z",
+    "registeredAt": "2022-03-17T10:44:00.000Z",
     "active": true
   },
   {
@@ -3901,7 +3901,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 250,
-    "registeredAt": "2025-10-08T08:36:00.000Z",
+    "registeredAt": "2022-10-08T08:36:00.000Z",
     "active": true
   },
   {
@@ -3945,7 +3945,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-04-23T10:11:00.000Z",
+    "registeredAt": "2022-04-23T10:11:00.000Z",
     "active": true
   },
   {
@@ -3956,7 +3956,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 1500,
-    "registeredAt": "2025-10-03T09:56:00.000Z",
+    "registeredAt": "2022-10-03T09:56:00.000Z",
     "active": true
   },
   {
@@ -3967,7 +3967,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-01-26T16:50:00.000Z",
+    "registeredAt": "2022-01-26T16:50:00.000Z",
     "active": true
   },
   {
@@ -3978,7 +3978,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-04-05T12:53:00.000Z",
+    "registeredAt": "2022-04-05T12:53:00.000Z",
     "active": true
   },
   {
@@ -3989,7 +3989,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-09-20T18:37:00.000Z",
+    "registeredAt": "2022-09-20T18:37:00.000Z",
     "active": true
   },
   {
@@ -4000,7 +4000,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-10-03T17:33:00.000Z",
+    "registeredAt": "2022-10-03T17:33:00.000Z",
     "active": true
   },
   {
@@ -4011,7 +4011,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-11-13T08:29:00.000Z",
+    "registeredAt": "2022-11-13T08:29:00.000Z",
     "active": true
   },
   {
@@ -4022,7 +4022,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-08-11T14:01:00.000Z",
+    "registeredAt": "2022-08-11T14:01:00.000Z",
     "active": true
   },
   {
@@ -4066,7 +4066,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-04-07T11:42:00.000Z",
+    "registeredAt": "2022-04-07T11:42:00.000Z",
     "active": true
   },
   {
@@ -4088,7 +4088,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-04-09T06:50:00.000Z",
+    "registeredAt": "2022-04-09T06:50:00.000Z",
     "active": true
   },
   {
@@ -4099,7 +4099,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 250,
-    "registeredAt": "2025-10-07T16:00:00.000Z",
+    "registeredAt": "2022-10-07T16:00:00.000Z",
     "active": true
   },
   {
@@ -4110,7 +4110,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-09-08T04:04:00.000Z",
+    "registeredAt": "2022-09-08T04:04:00.000Z",
     "active": true
   },
   {
@@ -4121,7 +4121,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 330,
-    "registeredAt": "2025-03-18T23:11:00.000Z",
+    "registeredAt": "2022-03-18T23:11:00.000Z",
     "active": true
   },
   {
@@ -4132,7 +4132,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-09-03T04:03:00.000Z",
+    "registeredAt": "2022-09-03T04:03:00.000Z",
     "active": true
   },
   {
@@ -4198,7 +4198,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-06-09T07:35:00.000Z",
+    "registeredAt": "2022-06-09T07:35:00.000Z",
     "active": true
   },
   {
@@ -4220,7 +4220,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-06-13T15:57:00.000Z",
+    "registeredAt": "2022-06-13T15:57:00.000Z",
     "active": true
   },
   {
@@ -4231,7 +4231,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-08-24T10:17:00.000Z",
+    "registeredAt": "2022-08-24T10:17:00.000Z",
     "active": true
   },
   {
@@ -4242,7 +4242,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-06-09T22:36:00.000Z",
+    "registeredAt": "2022-06-09T22:36:00.000Z",
     "active": true
   },
   {
@@ -4286,7 +4286,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-02-01T23:50:00.000Z",
+    "registeredAt": "2022-02-01T23:50:00.000Z",
     "active": true
   },
   {
@@ -4308,7 +4308,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-11-27T18:10:00.000Z",
+    "registeredAt": "2022-11-27T18:10:00.000Z",
     "active": true
   },
   {
@@ -4330,7 +4330,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 2000,
-    "registeredAt": "2025-04-08T03:00:00.000Z",
+    "registeredAt": "2022-04-08T03:00:00.000Z",
     "active": true
   },
   {
@@ -4407,7 +4407,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-08-20T08:40:00.000Z",
+    "registeredAt": "2022-08-20T08:40:00.000Z",
     "active": false
   },
   {
@@ -4440,7 +4440,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-02-26T10:19:00.000Z",
+    "registeredAt": "2022-02-26T10:19:00.000Z",
     "active": true
   },
   {
@@ -4451,7 +4451,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-02-24T17:43:00.000Z",
+    "registeredAt": "2022-02-24T17:43:00.000Z",
     "active": true
   },
   {
@@ -4462,7 +4462,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 250,
-    "registeredAt": "2025-03-11T04:58:00.000Z",
+    "registeredAt": "2022-03-11T04:58:00.000Z",
     "active": false
   },
   {
@@ -4473,7 +4473,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 1000,
-    "registeredAt": "2025-10-13T12:40:00.000Z",
+    "registeredAt": "2022-10-13T12:40:00.000Z",
     "active": false
   },
   {
@@ -4495,7 +4495,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-09-01T19:47:00.000Z",
+    "registeredAt": "2022-09-01T19:47:00.000Z",
     "active": true
   },
   {
@@ -4539,7 +4539,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-02-24T21:37:00.000Z",
+    "registeredAt": "2022-02-24T21:37:00.000Z",
     "active": true
   },
   {
@@ -4550,7 +4550,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-06-13T10:55:00.000Z",
+    "registeredAt": "2022-06-13T10:55:00.000Z",
     "active": true
   },
   {
@@ -4572,7 +4572,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-09-23T01:14:00.000Z",
+    "registeredAt": "2022-09-23T01:14:00.000Z",
     "active": true
   },
   {
@@ -4627,7 +4627,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 2000,
-    "registeredAt": "2025-07-06T03:59:00.000Z",
+    "registeredAt": "2022-07-06T03:59:00.000Z",
     "active": true
   },
   {
@@ -4638,7 +4638,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-06-01T17:03:00.000Z",
+    "registeredAt": "2022-06-01T17:03:00.000Z",
     "active": true
   },
   {
@@ -4660,7 +4660,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-09-27T00:58:00.000Z",
+    "registeredAt": "2022-09-27T00:58:00.000Z",
     "active": true
   },
   {
@@ -4671,7 +4671,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-03-18T00:31:00.000Z",
+    "registeredAt": "2022-03-18T00:31:00.000Z",
     "active": true
   },
   {
@@ -4682,7 +4682,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-06-17T05:51:00.000Z",
+    "registeredAt": "2022-06-17T05:51:00.000Z",
     "active": true
   },
   {
@@ -4704,7 +4704,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-09-21T02:17:00.000Z",
+    "registeredAt": "2022-09-21T02:17:00.000Z",
     "active": true
   },
   {
@@ -4803,7 +4803,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-12-26T21:56:00.000Z",
+    "registeredAt": "2022-12-26T21:56:00.000Z",
     "active": true
   },
   {
@@ -4814,7 +4814,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-08-04T12:29:00.000Z",
+    "registeredAt": "2022-08-04T12:29:00.000Z",
     "active": true
   },
   {
@@ -4825,7 +4825,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-09-13T08:09:00.000Z",
+    "registeredAt": "2022-09-13T08:09:00.000Z",
     "active": true
   },
   {
@@ -4836,7 +4836,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 330,
-    "registeredAt": "2025-03-24T16:06:00.000Z",
+    "registeredAt": "2022-03-24T16:06:00.000Z",
     "active": true
   },
   {
@@ -4847,7 +4847,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-06-11T08:12:00.000Z",
+    "registeredAt": "2022-06-11T08:12:00.000Z",
     "active": true
   },
   {
@@ -4858,7 +4858,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 1500,
-    "registeredAt": "2025-11-07T05:50:00.000Z",
+    "registeredAt": "2022-11-07T05:50:00.000Z",
     "active": true
   },
   {
@@ -4869,7 +4869,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-03-04T09:40:00.000Z",
+    "registeredAt": "2022-03-04T09:40:00.000Z",
     "active": true
   },
   {
@@ -4880,7 +4880,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 2000,
-    "registeredAt": "2025-04-13T12:11:00.000Z",
+    "registeredAt": "2022-04-13T12:11:00.000Z",
     "active": true
   },
   {
@@ -4902,7 +4902,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-09-13T10:04:00.000Z",
+    "registeredAt": "2022-09-13T10:04:00.000Z",
     "active": true
   },
   {
@@ -4913,7 +4913,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-03-04T23:28:00.000Z",
+    "registeredAt": "2022-03-04T23:28:00.000Z",
     "active": true
   },
   {
@@ -4924,7 +4924,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-01-13T18:18:00.000Z",
+    "registeredAt": "2022-01-13T18:18:00.000Z",
     "active": true
   },
   {
@@ -4957,7 +4957,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 1500,
-    "registeredAt": "2025-10-19T16:25:00.000Z",
+    "registeredAt": "2022-10-19T16:25:00.000Z",
     "active": true
   },
   {
@@ -4968,7 +4968,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-05-02T10:33:00.000Z",
+    "registeredAt": "2022-05-02T10:33:00.000Z",
     "active": true
   },
   {
@@ -5001,7 +5001,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-09-08T11:02:00.000Z",
+    "registeredAt": "2022-09-08T11:02:00.000Z",
     "active": true
   },
   {
@@ -5023,7 +5023,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 1000,
-    "registeredAt": "2025-05-14T04:29:00.000Z",
+    "registeredAt": "2022-05-14T04:29:00.000Z",
     "active": true
   },
   {
@@ -5045,7 +5045,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 330,
-    "registeredAt": "2025-08-02T10:36:00.000Z",
+    "registeredAt": "2022-08-02T10:36:00.000Z",
     "active": true
   },
   {
@@ -5067,7 +5067,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1000,
-    "registeredAt": "2025-09-10T08:13:00.000Z",
+    "registeredAt": "2022-09-10T08:13:00.000Z",
     "active": true
   },
   {
@@ -5089,7 +5089,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-12-17T19:50:00.000Z",
+    "registeredAt": "2022-12-17T19:50:00.000Z",
     "active": true
   },
   {
@@ -5144,7 +5144,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-02-18T19:57:00.000Z",
+    "registeredAt": "2022-02-18T19:57:00.000Z",
     "active": true
   },
   {
@@ -5166,7 +5166,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-07-11T03:37:00.000Z",
+    "registeredAt": "2022-07-11T03:37:00.000Z",
     "active": true
   },
   {
@@ -5177,7 +5177,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 1000,
-    "registeredAt": "2025-05-27T04:14:00.000Z",
+    "registeredAt": "2022-05-27T04:14:00.000Z",
     "active": true
   },
   {
@@ -5199,7 +5199,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-02-12T18:57:00.000Z",
+    "registeredAt": "2022-02-12T18:57:00.000Z",
     "active": true
   },
   {
@@ -5221,7 +5221,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 330,
-    "registeredAt": "2025-06-03T14:19:00.000Z",
+    "registeredAt": "2022-06-03T14:19:00.000Z",
     "active": true
   },
   {
@@ -5243,7 +5243,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-02-09T00:20:00.000Z",
+    "registeredAt": "2022-02-09T00:20:00.000Z",
     "active": true
   },
   {
@@ -5276,7 +5276,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-09-11T16:05:00.000Z",
+    "registeredAt": "2022-09-11T16:05:00.000Z",
     "active": true
   },
   {
@@ -5287,7 +5287,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-07-17T11:46:00.000Z",
+    "registeredAt": "2022-07-17T11:46:00.000Z",
     "active": true
   },
   {
@@ -5298,7 +5298,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-12-08T01:15:00.000Z",
+    "registeredAt": "2022-12-08T01:15:00.000Z",
     "active": true
   },
   {
@@ -5309,7 +5309,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-02-26T06:26:00.000Z",
+    "registeredAt": "2022-02-26T06:26:00.000Z",
     "active": true
   },
   {
@@ -5331,7 +5331,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-10-18T22:02:00.000Z",
+    "registeredAt": "2022-10-18T22:02:00.000Z",
     "active": true
   },
   {
@@ -5342,7 +5342,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-11-21T00:41:00.000Z",
+    "registeredAt": "2022-11-21T00:41:00.000Z",
     "active": true
   },
   {
@@ -5353,7 +5353,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-06-21T13:10:00.000Z",
+    "registeredAt": "2022-06-21T13:10:00.000Z",
     "active": true
   },
   {
@@ -5364,7 +5364,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 250,
-    "registeredAt": "2025-11-10T17:37:00.000Z",
+    "registeredAt": "2022-11-10T17:37:00.000Z",
     "active": true
   },
   {
@@ -5419,7 +5419,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-07-26T09:00:00.000Z",
+    "registeredAt": "2022-07-26T09:00:00.000Z",
     "active": true
   },
   {
@@ -5452,7 +5452,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-12-11T18:24:00.000Z",
+    "registeredAt": "2022-12-11T18:24:00.000Z",
     "active": true
   },
   {
@@ -5474,7 +5474,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 1500,
-    "registeredAt": "2025-06-18T16:31:00.000Z",
+    "registeredAt": "2022-06-18T16:31:00.000Z",
     "active": true
   },
   {
@@ -5529,7 +5529,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-06-27T08:36:00.000Z",
+    "registeredAt": "2022-06-27T08:36:00.000Z",
     "active": true
   },
   {
@@ -5683,7 +5683,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-05-08T06:27:00.000Z",
+    "registeredAt": "2022-05-08T06:27:00.000Z",
     "active": true
   },
   {
@@ -5705,7 +5705,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 1500,
-    "registeredAt": "2025-08-01T00:43:00.000Z",
+    "registeredAt": "2022-08-01T00:43:00.000Z",
     "active": true
   },
   {
@@ -5716,7 +5716,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 750,
-    "registeredAt": "2025-10-16T08:25:00.000Z",
+    "registeredAt": "2022-10-16T08:25:00.000Z",
     "active": true
   },
   {
@@ -5727,7 +5727,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-11-03T18:18:00.000Z",
+    "registeredAt": "2022-11-03T18:18:00.000Z",
     "active": true
   },
   {
@@ -5738,7 +5738,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-10-12T21:47:00.000Z",
+    "registeredAt": "2022-10-12T21:47:00.000Z",
     "active": true
   },
   {
@@ -5749,7 +5749,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-01-07T15:03:00.000Z",
+    "registeredAt": "2022-01-07T15:03:00.000Z",
     "active": true
   },
   {
@@ -5760,7 +5760,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-02-13T17:40:00.000Z",
+    "registeredAt": "2022-02-13T17:40:00.000Z",
     "active": true
   },
   {
@@ -5771,7 +5771,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-05-08T20:47:00.000Z",
+    "registeredAt": "2022-05-08T20:47:00.000Z",
     "active": true
   },
   {
@@ -5782,7 +5782,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-04-13T09:45:00.000Z",
+    "registeredAt": "2022-04-13T09:45:00.000Z",
     "active": true
   },
   {
@@ -5804,7 +5804,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-08-10T10:33:00.000Z",
+    "registeredAt": "2022-08-10T10:33:00.000Z",
     "active": true
   },
   {
@@ -5826,7 +5826,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-11-10T03:06:00.000Z",
+    "registeredAt": "2022-11-10T03:06:00.000Z",
     "active": true
   },
   {
@@ -5837,7 +5837,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-07-22T14:34:00.000Z",
+    "registeredAt": "2022-07-22T14:34:00.000Z",
     "active": true
   },
   {
@@ -5859,7 +5859,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 330,
-    "registeredAt": "2025-09-09T06:25:00.000Z",
+    "registeredAt": "2022-09-09T06:25:00.000Z",
     "active": true
   },
   {
@@ -5881,7 +5881,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-02-08T10:28:00.000Z",
+    "registeredAt": "2022-02-08T10:28:00.000Z",
     "active": true
   },
   {
@@ -5892,7 +5892,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 250,
-    "registeredAt": "2025-07-22T23:51:00.000Z",
+    "registeredAt": "2022-07-22T23:51:00.000Z",
     "active": true
   },
   {
@@ -5914,7 +5914,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-09-18T02:02:00.000Z",
+    "registeredAt": "2022-09-18T02:02:00.000Z",
     "active": true
   },
   {
@@ -5925,7 +5925,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-08-07T20:02:00.000Z",
+    "registeredAt": "2022-08-07T20:02:00.000Z",
     "active": true
   },
   {
@@ -5969,7 +5969,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-11-23T16:19:00.000Z",
+    "registeredAt": "2022-11-23T16:19:00.000Z",
     "active": true
   },
   {
@@ -6002,7 +6002,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 330,
-    "registeredAt": "2025-01-26T17:01:00.000Z",
+    "registeredAt": "2022-01-26T17:01:00.000Z",
     "active": true
   },
   {
@@ -6013,7 +6013,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-08-20T08:29:00.000Z",
+    "registeredAt": "2022-08-20T08:29:00.000Z",
     "active": true
   },
   {
@@ -6024,7 +6024,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-02-04T15:58:00.000Z",
+    "registeredAt": "2022-02-04T15:58:00.000Z",
     "active": true
   },
   {
@@ -6057,7 +6057,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-11-03T12:04:00.000Z",
+    "registeredAt": "2022-11-03T12:04:00.000Z",
     "active": true
   },
   {
@@ -6068,7 +6068,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-02-09T12:44:00.000Z",
+    "registeredAt": "2022-02-09T12:44:00.000Z",
     "active": true
   },
   {
@@ -6145,7 +6145,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-05-11T11:38:00.000Z",
+    "registeredAt": "2022-05-11T11:38:00.000Z",
     "active": true
   },
   {
@@ -6189,7 +6189,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 250,
-    "registeredAt": "2025-03-04T00:15:00.000Z",
+    "registeredAt": "2022-03-04T00:15:00.000Z",
     "active": true
   },
   {
@@ -6211,7 +6211,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-09-25T18:18:00.000Z",
+    "registeredAt": "2022-09-25T18:18:00.000Z",
     "active": true
   },
   {
@@ -6222,7 +6222,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-10-21T16:27:00.000Z",
+    "registeredAt": "2022-10-21T16:27:00.000Z",
     "active": true
   },
   {
@@ -6233,7 +6233,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-05-14T16:20:00.000Z",
+    "registeredAt": "2022-05-14T16:20:00.000Z",
     "active": true
   },
   {
@@ -6244,7 +6244,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 750,
-    "registeredAt": "2025-05-22T12:15:00.000Z",
+    "registeredAt": "2022-05-22T12:15:00.000Z",
     "active": true
   },
   {
@@ -6266,7 +6266,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-06-05T16:06:00.000Z",
+    "registeredAt": "2022-06-05T16:06:00.000Z",
     "active": true
   },
   {
@@ -6299,7 +6299,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 1000,
-    "registeredAt": "2025-05-20T05:27:00.000Z",
+    "registeredAt": "2022-05-20T05:27:00.000Z",
     "active": true
   },
   {
@@ -6310,7 +6310,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-07-14T21:27:00.000Z",
+    "registeredAt": "2022-07-14T21:27:00.000Z",
     "active": true
   },
   {
@@ -6332,7 +6332,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-12-01T02:29:00.000Z",
+    "registeredAt": "2022-12-01T02:29:00.000Z",
     "active": true
   },
   {
@@ -6365,7 +6365,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-09-02T18:37:00.000Z",
+    "registeredAt": "2022-09-02T18:37:00.000Z",
     "active": true
   },
   {
@@ -6376,7 +6376,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-07-01T20:03:00.000Z",
+    "registeredAt": "2022-07-01T20:03:00.000Z",
     "active": true
   },
   {
@@ -6387,7 +6387,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-10-23T22:05:00.000Z",
+    "registeredAt": "2022-10-23T22:05:00.000Z",
     "active": true
   },
   {
@@ -6398,7 +6398,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1000,
-    "registeredAt": "2025-08-15T03:37:00.000Z",
+    "registeredAt": "2022-08-15T03:37:00.000Z",
     "active": true
   },
   {
@@ -6409,7 +6409,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-03-08T10:18:00.000Z",
+    "registeredAt": "2022-03-08T10:18:00.000Z",
     "active": true
   },
   {
@@ -6420,7 +6420,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-03-12T21:12:00.000Z",
+    "registeredAt": "2022-03-12T21:12:00.000Z",
     "active": true
   },
   {
@@ -6431,7 +6431,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-01-01T00:52:00.000Z",
+    "registeredAt": "2022-01-01T00:52:00.000Z",
     "active": true
   },
   {
@@ -6464,7 +6464,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-10-18T11:14:00.000Z",
+    "registeredAt": "2022-10-18T11:14:00.000Z",
     "active": true
   },
   {
@@ -6486,7 +6486,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-12-28T04:36:00.000Z",
+    "registeredAt": "2022-12-28T04:36:00.000Z",
     "active": true
   },
   {
@@ -6519,7 +6519,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-09-07T14:01:00.000Z",
+    "registeredAt": "2022-09-07T14:01:00.000Z",
     "active": true
   },
   {
@@ -6541,7 +6541,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-05-11T15:59:00.000Z",
+    "registeredAt": "2022-05-11T15:59:00.000Z",
     "active": true
   },
   {
@@ -6552,7 +6552,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-10-18T21:20:00.000Z",
+    "registeredAt": "2022-10-18T21:20:00.000Z",
     "active": true
   },
   {
@@ -6585,7 +6585,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-11-05T18:14:00.000Z",
+    "registeredAt": "2022-11-05T18:14:00.000Z",
     "active": true
   },
   {
@@ -6596,7 +6596,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-05-17T08:53:00.000Z",
+    "registeredAt": "2022-05-17T08:53:00.000Z",
     "active": true
   },
   {
@@ -6640,7 +6640,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-04-15T10:00:00.000Z",
+    "registeredAt": "2022-04-15T10:00:00.000Z",
     "active": true
   },
   {
@@ -6662,7 +6662,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 1500,
-    "registeredAt": "2025-10-23T23:46:00.000Z",
+    "registeredAt": "2022-10-23T23:46:00.000Z",
     "active": true
   },
   {
@@ -6673,7 +6673,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 250,
-    "registeredAt": "2025-09-12T12:50:00.000Z",
+    "registeredAt": "2022-09-12T12:50:00.000Z",
     "active": true
   },
   {
@@ -6684,7 +6684,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-11-24T23:04:00.000Z",
+    "registeredAt": "2022-11-24T23:04:00.000Z",
     "active": true
   },
   {
@@ -6695,7 +6695,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-08-12T09:44:00.000Z",
+    "registeredAt": "2022-08-12T09:44:00.000Z",
     "active": true
   },
   {
@@ -6750,7 +6750,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-04-18T10:37:00.000Z",
+    "registeredAt": "2022-04-18T10:37:00.000Z",
     "active": true
   },
   {
@@ -6761,7 +6761,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-10-10T07:51:00.000Z",
+    "registeredAt": "2022-10-10T07:51:00.000Z",
     "active": true
   },
   {
@@ -6772,7 +6772,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-07-09T16:58:00.000Z",
+    "registeredAt": "2022-07-09T16:58:00.000Z",
     "active": true
   },
   {
@@ -6794,7 +6794,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-01-07T10:27:00.000Z",
+    "registeredAt": "2022-01-07T10:27:00.000Z",
     "active": true
   },
   {
@@ -6827,7 +6827,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-05-06T12:59:00.000Z",
+    "registeredAt": "2022-05-06T12:59:00.000Z",
     "active": true
   },
   {
@@ -6838,7 +6838,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-04-10T09:23:00.000Z",
+    "registeredAt": "2022-04-10T09:23:00.000Z",
     "active": true
   },
   {
@@ -6849,7 +6849,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-11-24T13:26:00.000Z",
+    "registeredAt": "2022-11-24T13:26:00.000Z",
     "active": true
   },
   {
@@ -6871,7 +6871,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 250,
-    "registeredAt": "2025-08-27T18:21:00.000Z",
+    "registeredAt": "2022-08-27T18:21:00.000Z",
     "active": true
   },
   {
@@ -6893,7 +6893,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-03-02T04:46:00.000Z",
+    "registeredAt": "2022-03-02T04:46:00.000Z",
     "active": true
   },
   {
@@ -6926,7 +6926,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-02-04T12:36:00.000Z",
+    "registeredAt": "2022-02-04T12:36:00.000Z",
     "active": true
   },
   {
@@ -6937,7 +6937,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-11-25T21:45:00.000Z",
+    "registeredAt": "2022-11-25T21:45:00.000Z",
     "active": true
   },
   {
@@ -6981,7 +6981,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-03-16T17:07:00.000Z",
+    "registeredAt": "2022-03-16T17:07:00.000Z",
     "active": true
   },
   {
@@ -7025,7 +7025,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-04-17T20:57:00.000Z",
+    "registeredAt": "2022-04-17T20:57:00.000Z",
     "active": true
   },
   {
@@ -7047,7 +7047,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-04-04T08:57:00.000Z",
+    "registeredAt": "2022-04-04T08:57:00.000Z",
     "active": true
   },
   {
@@ -7058,7 +7058,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-01-10T03:42:00.000Z",
+    "registeredAt": "2022-01-10T03:42:00.000Z",
     "active": true
   },
   {
@@ -7069,7 +7069,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-10-05T05:28:00.000Z",
+    "registeredAt": "2022-10-05T05:28:00.000Z",
     "active": true
   },
   {
@@ -7113,7 +7113,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-01-10T10:07:00.000Z",
+    "registeredAt": "2022-01-10T10:07:00.000Z",
     "active": true
   },
   {
@@ -7168,7 +7168,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-03-03T04:44:00.000Z",
+    "registeredAt": "2022-03-03T04:44:00.000Z",
     "active": true
   },
   {
@@ -7190,7 +7190,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-10-14T15:10:00.000Z",
+    "registeredAt": "2022-10-14T15:10:00.000Z",
     "active": true
   },
   {
@@ -7212,7 +7212,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-08-19T16:24:00.000Z",
+    "registeredAt": "2022-08-19T16:24:00.000Z",
     "active": true
   },
   {
@@ -7223,7 +7223,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-12-27T09:14:00.000Z",
+    "registeredAt": "2022-12-27T09:14:00.000Z",
     "active": true
   },
   {
@@ -7278,7 +7278,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-03-19T20:59:00.000Z",
+    "registeredAt": "2022-03-19T20:59:00.000Z",
     "active": true
   },
   {
@@ -7311,7 +7311,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-06-07T19:11:00.000Z",
+    "registeredAt": "2022-06-07T19:11:00.000Z",
     "active": true
   },
   {
@@ -7322,7 +7322,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-01-03T16:57:00.000Z",
+    "registeredAt": "2022-01-03T16:57:00.000Z",
     "active": true
   },
   {
@@ -7333,7 +7333,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-02-02T22:20:00.000Z",
+    "registeredAt": "2022-02-02T22:20:00.000Z",
     "active": true
   },
   {
@@ -7399,7 +7399,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-10-27T18:44:00.000Z",
+    "registeredAt": "2022-10-27T18:44:00.000Z",
     "active": true
   },
   {
@@ -7410,7 +7410,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-11-16T11:03:00.000Z",
+    "registeredAt": "2022-11-16T11:03:00.000Z",
     "active": true
   },
   {
@@ -7454,7 +7454,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-07-17T08:01:00.000Z",
+    "registeredAt": "2022-07-17T08:01:00.000Z",
     "active": true
   },
   {
@@ -7465,7 +7465,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-03-09T09:15:00.000Z",
+    "registeredAt": "2022-03-09T09:15:00.000Z",
     "active": true
   },
   {
@@ -7498,7 +7498,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-06-10T04:51:00.000Z",
+    "registeredAt": "2022-06-10T04:51:00.000Z",
     "active": true
   },
   {
@@ -7542,7 +7542,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-09-15T03:11:00.000Z",
+    "registeredAt": "2022-09-15T03:11:00.000Z",
     "active": true
   },
   {
@@ -7564,7 +7564,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-09-11T17:58:00.000Z",
+    "registeredAt": "2022-09-11T17:58:00.000Z",
     "active": true
   },
   {
@@ -7575,7 +7575,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-07-05T10:50:00.000Z",
+    "registeredAt": "2022-07-05T10:50:00.000Z",
     "active": true
   },
   {
@@ -7619,7 +7619,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 1500,
-    "registeredAt": "2025-01-11T17:39:00.000Z",
+    "registeredAt": "2022-01-11T17:39:00.000Z",
     "active": true
   },
   {
@@ -7630,7 +7630,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-09-23T02:20:00.000Z",
+    "registeredAt": "2022-09-23T02:20:00.000Z",
     "active": true
   },
   {
@@ -7696,7 +7696,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-02-09T01:59:00.000Z",
+    "registeredAt": "2022-02-09T01:59:00.000Z",
     "active": true
   },
   {
@@ -7729,7 +7729,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-06-25T04:29:00.000Z",
+    "registeredAt": "2022-06-25T04:29:00.000Z",
     "active": true
   },
   {
@@ -7784,7 +7784,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-02-11T06:15:00.000Z",
+    "registeredAt": "2022-02-11T06:15:00.000Z",
     "active": true
   },
   {
@@ -7806,7 +7806,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-05-28T02:59:00.000Z",
+    "registeredAt": "2022-05-28T02:59:00.000Z",
     "active": true
   },
   {
@@ -7872,7 +7872,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-08-08T07:17:00.000Z",
+    "registeredAt": "2022-08-08T07:17:00.000Z",
     "active": true
   },
   {
@@ -7883,7 +7883,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-08-17T04:09:00.000Z",
+    "registeredAt": "2022-08-17T04:09:00.000Z",
     "active": true
   },
   {
@@ -7894,7 +7894,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-01-11T21:10:00.000Z",
+    "registeredAt": "2022-01-11T21:10:00.000Z",
     "active": true
   },
   {
@@ -7905,7 +7905,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 2000,
-    "registeredAt": "2025-04-01T16:38:00.000Z",
+    "registeredAt": "2022-04-01T16:38:00.000Z",
     "active": true
   },
   {
@@ -7927,7 +7927,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-03-19T12:20:00.000Z",
+    "registeredAt": "2022-03-19T12:20:00.000Z",
     "active": true
   },
   {
@@ -7938,7 +7938,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-06-26T21:17:00.000Z",
+    "registeredAt": "2022-06-26T21:17:00.000Z",
     "active": true
   },
   {
@@ -7949,7 +7949,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-07-02T15:52:00.000Z",
+    "registeredAt": "2022-07-02T15:52:00.000Z",
     "active": true
   },
   {
@@ -7960,7 +7960,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 355,
-    "registeredAt": "2025-05-12T17:58:00.000Z",
+    "registeredAt": "2022-05-12T17:58:00.000Z",
     "active": true
   },
   {
@@ -7982,7 +7982,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-06-20T05:18:00.000Z",
+    "registeredAt": "2022-06-20T05:18:00.000Z",
     "active": true
   },
   {
@@ -7993,7 +7993,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-02-09T13:46:00.000Z",
+    "registeredAt": "2022-02-09T13:46:00.000Z",
     "active": true
   },
   {
@@ -8004,7 +8004,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-03-09T07:27:00.000Z",
+    "registeredAt": "2022-03-09T07:27:00.000Z",
     "active": true
   },
   {
@@ -8015,7 +8015,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-12-27T01:52:00.000Z",
+    "registeredAt": "2022-12-27T01:52:00.000Z",
     "active": true
   },
   {
@@ -8026,7 +8026,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 355,
-    "registeredAt": "2025-02-14T04:28:00.000Z",
+    "registeredAt": "2022-02-14T04:28:00.000Z",
     "active": true
   },
   {
@@ -8059,7 +8059,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1000,
-    "registeredAt": "2025-11-30T20:57:00.000Z",
+    "registeredAt": "2022-11-30T20:57:00.000Z",
     "active": true
   },
   {
@@ -8125,7 +8125,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-01-27T14:07:00.000Z",
+    "registeredAt": "2022-01-27T14:07:00.000Z",
     "active": true
   },
   {
@@ -8147,7 +8147,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-10-27T20:57:00.000Z",
+    "registeredAt": "2022-10-27T20:57:00.000Z",
     "active": true
   },
   {
@@ -8180,7 +8180,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-08-11T00:19:00.000Z",
+    "registeredAt": "2022-08-11T00:19:00.000Z",
     "active": true
   },
   {
@@ -8191,7 +8191,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-03-07T14:07:00.000Z",
+    "registeredAt": "2022-03-07T14:07:00.000Z",
     "active": true
   },
   {
@@ -8202,7 +8202,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-02-05T01:11:00.000Z",
+    "registeredAt": "2022-02-05T01:11:00.000Z",
     "active": true
   },
   {
@@ -8224,7 +8224,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 750,
-    "registeredAt": "2025-02-09T19:30:00.000Z",
+    "registeredAt": "2022-02-09T19:30:00.000Z",
     "active": true
   },
   {
@@ -8257,7 +8257,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-12-25T08:35:00.000Z",
+    "registeredAt": "2022-12-25T08:35:00.000Z",
     "active": true
   },
   {
@@ -8268,7 +8268,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-04-06T02:54:00.000Z",
+    "registeredAt": "2022-04-06T02:54:00.000Z",
     "active": true
   },
   {
@@ -8279,7 +8279,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-04-25T19:39:00.000Z",
+    "registeredAt": "2022-04-25T19:39:00.000Z",
     "active": true
   },
   {
@@ -8323,7 +8323,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-11-11T12:38:00.000Z",
+    "registeredAt": "2022-11-11T12:38:00.000Z",
     "active": true
   },
   {
@@ -8334,7 +8334,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-05-02T17:48:00.000Z",
+    "registeredAt": "2022-05-02T17:48:00.000Z",
     "active": true
   },
   {
@@ -8400,7 +8400,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-11-07T04:54:00.000Z",
+    "registeredAt": "2022-11-07T04:54:00.000Z",
     "active": true
   },
   {
@@ -8422,7 +8422,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-05-02T00:34:00.000Z",
+    "registeredAt": "2022-05-02T00:34:00.000Z",
     "active": true
   },
   {
@@ -8433,7 +8433,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 1000,
-    "registeredAt": "2025-07-17T17:38:00.000Z",
+    "registeredAt": "2022-07-17T17:38:00.000Z",
     "active": true
   },
   {
@@ -8455,7 +8455,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 1500,
-    "registeredAt": "2025-03-06T15:34:00.000Z",
+    "registeredAt": "2022-03-06T15:34:00.000Z",
     "active": true
   },
   {
@@ -8466,7 +8466,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-11-12T13:24:00.000Z",
+    "registeredAt": "2022-11-12T13:24:00.000Z",
     "active": true
   },
   {
@@ -8499,7 +8499,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-06-13T14:45:00.000Z",
+    "registeredAt": "2022-06-13T14:45:00.000Z",
     "active": true
   },
   {
@@ -8510,7 +8510,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-07-14T17:06:00.000Z",
+    "registeredAt": "2022-07-14T17:06:00.000Z",
     "active": true
   },
   {
@@ -8521,7 +8521,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-01-01T22:48:00.000Z",
+    "registeredAt": "2022-01-01T22:48:00.000Z",
     "active": true
   },
   {
@@ -8543,7 +8543,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-01-08T21:08:00.000Z",
+    "registeredAt": "2022-01-08T21:08:00.000Z",
     "active": true
   },
   {
@@ -8554,7 +8554,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-01-08T04:30:00.000Z",
+    "registeredAt": "2022-01-08T04:30:00.000Z",
     "active": true
   },
   {
@@ -8642,7 +8642,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-12-16T23:48:00.000Z",
+    "registeredAt": "2022-12-16T23:48:00.000Z",
     "active": true
   },
   {
@@ -8653,7 +8653,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-10-03T22:01:00.000Z",
+    "registeredAt": "2022-10-03T22:01:00.000Z",
     "active": true
   },
   {
@@ -8675,7 +8675,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-11-16T09:14:00.000Z",
+    "registeredAt": "2022-11-16T09:14:00.000Z",
     "active": true
   },
   {
@@ -8697,7 +8697,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-08-07T10:00:00.000Z",
+    "registeredAt": "2022-08-07T10:00:00.000Z",
     "active": true
   },
   {
@@ -8708,7 +8708,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-05-04T14:49:00.000Z",
+    "registeredAt": "2022-05-04T14:49:00.000Z",
     "active": true
   },
   {
@@ -8719,7 +8719,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-04-13T16:28:00.000Z",
+    "registeredAt": "2022-04-13T16:28:00.000Z",
     "active": true
   },
   {
@@ -8730,7 +8730,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-09-10T18:11:00.000Z",
+    "registeredAt": "2022-09-10T18:11:00.000Z",
     "active": true
   },
   {
@@ -8752,7 +8752,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-06-25T09:25:00.000Z",
+    "registeredAt": "2022-06-25T09:25:00.000Z",
     "active": true
   },
   {
@@ -8785,7 +8785,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-06-20T09:00:00.000Z",
+    "registeredAt": "2022-06-20T09:00:00.000Z",
     "active": true
   },
   {
@@ -8796,7 +8796,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-11-23T14:08:00.000Z",
+    "registeredAt": "2022-11-23T14:08:00.000Z",
     "active": true
   },
   {
@@ -8851,7 +8851,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-04-13T00:29:00.000Z",
+    "registeredAt": "2022-04-13T00:29:00.000Z",
     "active": true
   },
   {
@@ -8862,7 +8862,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-11-27T21:16:00.000Z",
+    "registeredAt": "2022-11-27T21:16:00.000Z",
     "active": true
   },
   {
@@ -8939,7 +8939,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-02-20T10:27:00.000Z",
+    "registeredAt": "2022-02-20T10:27:00.000Z",
     "active": true
   },
   {
@@ -8972,7 +8972,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-02-17T21:30:00.000Z",
+    "registeredAt": "2022-02-17T21:30:00.000Z",
     "active": true
   },
   {
@@ -8983,7 +8983,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 750,
-    "registeredAt": "2025-01-02T05:56:00.000Z",
+    "registeredAt": "2022-01-02T05:56:00.000Z",
     "active": true
   },
   {
@@ -8994,7 +8994,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 750,
-    "registeredAt": "2025-01-16T12:45:00.000Z",
+    "registeredAt": "2022-01-16T12:45:00.000Z",
     "active": true
   },
   {
@@ -9027,7 +9027,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-05-31T20:15:00.000Z",
+    "registeredAt": "2022-05-31T20:15:00.000Z",
     "active": true
   },
   {
@@ -9049,7 +9049,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 750,
-    "registeredAt": "2025-04-07T05:13:00.000Z",
+    "registeredAt": "2022-04-07T05:13:00.000Z",
     "active": true
   },
   {
@@ -9126,7 +9126,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-09-19T14:46:00.000Z",
+    "registeredAt": "2022-09-19T14:46:00.000Z",
     "active": true
   },
   {
@@ -9148,7 +9148,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 1500,
-    "registeredAt": "2025-11-06T05:43:00.000Z",
+    "registeredAt": "2022-11-06T05:43:00.000Z",
     "active": true
   },
   {
@@ -9192,7 +9192,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 500,
-    "registeredAt": "2025-08-04T06:04:00.000Z",
+    "registeredAt": "2022-08-04T06:04:00.000Z",
     "active": true
   },
   {
@@ -9214,7 +9214,7 @@
     "packaging": "tetra",
     "deposit": 100,
     "volume": 330,
-    "registeredAt": "2025-06-22T20:32:00.000Z",
+    "registeredAt": "2022-06-22T20:32:00.000Z",
     "active": true
   },
   {
@@ -9236,7 +9236,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 2000,
-    "registeredAt": "2025-06-24T03:39:00.000Z",
+    "registeredAt": "2022-06-24T03:39:00.000Z",
     "active": true
   },
   {
@@ -9269,7 +9269,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-08-22T06:26:00.000Z",
+    "registeredAt": "2022-08-22T06:26:00.000Z",
     "active": true
   },
   {
@@ -9291,7 +9291,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-10-09T21:53:00.000Z",
+    "registeredAt": "2022-10-09T21:53:00.000Z",
     "active": true
   },
   {
@@ -9313,7 +9313,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-02-28T20:12:00.000Z",
+    "registeredAt": "2022-02-28T20:12:00.000Z",
     "active": true
   },
   {
@@ -9357,7 +9357,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 750,
-    "registeredAt": "2025-07-20T02:17:00.000Z",
+    "registeredAt": "2022-07-20T02:17:00.000Z",
     "active": true
   },
   {
@@ -9368,7 +9368,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-01-05T09:05:00.000Z",
+    "registeredAt": "2022-01-05T09:05:00.000Z",
     "active": true
   },
   {
@@ -9390,7 +9390,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 1500,
-    "registeredAt": "2025-02-09T16:06:00.000Z",
+    "registeredAt": "2022-02-09T16:06:00.000Z",
     "active": true
   },
   {
@@ -9412,7 +9412,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-12-13T12:16:00.000Z",
+    "registeredAt": "2022-12-13T12:16:00.000Z",
     "active": true
   },
   {
@@ -9423,7 +9423,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-11-15T12:35:00.000Z",
+    "registeredAt": "2022-11-15T12:35:00.000Z",
     "active": true
   },
   {
@@ -9445,7 +9445,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-11-20T15:42:00.000Z",
+    "registeredAt": "2022-11-20T15:42:00.000Z",
     "active": true
   },
   {
@@ -9456,7 +9456,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-11-24T18:57:00.000Z",
+    "registeredAt": "2022-11-24T18:57:00.000Z",
     "active": true
   },
   {
@@ -9467,7 +9467,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-01-22T22:37:00.000Z",
+    "registeredAt": "2022-01-22T22:37:00.000Z",
     "active": true
   },
   {
@@ -9478,7 +9478,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-07-03T16:02:00.000Z",
+    "registeredAt": "2022-07-03T16:02:00.000Z",
     "active": true
   },
   {
@@ -9500,7 +9500,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-09-25T17:53:00.000Z",
+    "registeredAt": "2022-09-25T17:53:00.000Z",
     "active": true
   },
   {
@@ -9511,7 +9511,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 750,
-    "registeredAt": "2025-09-17T23:29:00.000Z",
+    "registeredAt": "2022-09-17T23:29:00.000Z",
     "active": true
   },
   {
@@ -9522,7 +9522,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-09-03T05:07:00.000Z",
+    "registeredAt": "2022-09-03T05:07:00.000Z",
     "active": true
   },
   {
@@ -9544,7 +9544,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-03-21T18:01:00.000Z",
+    "registeredAt": "2022-03-21T18:01:00.000Z",
     "active": true
   },
   {
@@ -9577,7 +9577,7 @@
     "packaging": "can",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-10-11T22:53:00.000Z",
+    "registeredAt": "2022-10-11T22:53:00.000Z",
     "active": true
   },
   {
@@ -9599,7 +9599,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-10-16T20:41:00.000Z",
+    "registeredAt": "2022-10-16T20:41:00.000Z",
     "active": true
   },
   {
@@ -9621,7 +9621,7 @@
     "packaging": "can",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-03-12T02:20:00.000Z",
+    "registeredAt": "2022-03-12T02:20:00.000Z",
     "active": true
   },
   {
@@ -9632,7 +9632,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-08-01T11:12:00.000Z",
+    "registeredAt": "2022-08-01T11:12:00.000Z",
     "active": true
   },
   {
@@ -9643,7 +9643,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-09-09T15:41:00.000Z",
+    "registeredAt": "2022-09-09T15:41:00.000Z",
     "active": true
   },
   {
@@ -9665,7 +9665,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-12-22T00:52:00.000Z",
+    "registeredAt": "2022-12-22T00:52:00.000Z",
     "active": true
   },
   {
@@ -9676,7 +9676,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-04-02T10:40:00.000Z",
+    "registeredAt": "2022-04-02T10:40:00.000Z",
     "active": true
   },
   {
@@ -9698,7 +9698,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 2000,
-    "registeredAt": "2025-04-05T00:26:00.000Z",
+    "registeredAt": "2022-04-05T00:26:00.000Z",
     "active": true
   },
   {
@@ -9775,7 +9775,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 1500,
-    "registeredAt": "2025-02-02T23:11:00.000Z",
+    "registeredAt": "2022-02-02T23:11:00.000Z",
     "active": true
   },
   {
@@ -9786,7 +9786,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 2000,
-    "registeredAt": "2025-02-13T01:04:00.000Z",
+    "registeredAt": "2022-02-13T01:04:00.000Z",
     "active": true
   },
   {
@@ -9797,7 +9797,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-07-13T21:00:00.000Z",
+    "registeredAt": "2022-07-13T21:00:00.000Z",
     "active": true
   },
   {
@@ -9830,7 +9830,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-04-08T21:43:00.000Z",
+    "registeredAt": "2022-04-08T21:43:00.000Z",
     "active": true
   },
   {
@@ -9863,7 +9863,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-06-15T18:11:00.000Z",
+    "registeredAt": "2022-06-15T18:11:00.000Z",
     "active": true
   },
   {
@@ -9918,7 +9918,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 2000,
-    "registeredAt": "2025-01-19T09:53:00.000Z",
+    "registeredAt": "2022-01-19T09:53:00.000Z",
     "active": true
   },
   {
@@ -9929,7 +9929,7 @@
     "packaging": "pet",
     "deposit": 120,
     "volume": 1000,
-    "registeredAt": "2025-09-01T11:48:00.000Z",
+    "registeredAt": "2022-09-01T11:48:00.000Z",
     "active": true
   },
   {
@@ -9940,7 +9940,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 750,
-    "registeredAt": "2025-05-05T04:56:00.000Z",
+    "registeredAt": "2022-05-05T04:56:00.000Z",
     "active": true
   },
   {
@@ -9951,7 +9951,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 250,
-    "registeredAt": "2025-12-19T19:33:00.000Z",
+    "registeredAt": "2022-12-19T19:33:00.000Z",
     "active": true
   },
   {
@@ -9995,7 +9995,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-06-11T10:23:00.000Z",
+    "registeredAt": "2022-06-11T10:23:00.000Z",
     "active": true
   },
   {
@@ -10006,7 +10006,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-06-18T09:43:00.000Z",
+    "registeredAt": "2022-06-18T09:43:00.000Z",
     "active": true
   },
   {
@@ -10028,7 +10028,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-05-27T14:46:00.000Z",
+    "registeredAt": "2022-05-27T14:46:00.000Z",
     "active": true
   },
   {
@@ -10061,7 +10061,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-05-04T20:26:00.000Z",
+    "registeredAt": "2022-05-04T20:26:00.000Z",
     "active": true
   },
   {
@@ -10105,7 +10105,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-09-13T04:10:00.000Z",
+    "registeredAt": "2022-09-13T04:10:00.000Z",
     "active": true
   },
   {
@@ -10116,7 +10116,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-10-26T22:37:00.000Z",
+    "registeredAt": "2022-10-26T22:37:00.000Z",
     "active": true
   },
   {
@@ -10127,7 +10127,7 @@
     "packaging": "pet",
     "deposit": 100,
     "volume": 1500,
-    "registeredAt": "2025-10-04T00:50:00.000Z",
+    "registeredAt": "2022-10-04T00:50:00.000Z",
     "active": true
   },
   {
@@ -10160,7 +10160,7 @@
     "packaging": "pet",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-07-25T11:40:00.000Z",
+    "registeredAt": "2022-07-25T11:40:00.000Z",
     "active": true
   },
   {
@@ -10182,7 +10182,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1000,
-    "registeredAt": "2025-10-02T10:45:00.000Z",
+    "registeredAt": "2022-10-02T10:45:00.000Z",
     "active": true
   },
   {
@@ -10204,7 +10204,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-01-19T20:16:00.000Z",
+    "registeredAt": "2022-01-19T20:16:00.000Z",
     "active": true
   },
   {
@@ -10226,7 +10226,7 @@
     "packaging": "glass",
     "deposit": 100,
     "volume": 1000,
-    "registeredAt": "2025-09-07T20:40:00.000Z",
+    "registeredAt": "2022-09-07T20:40:00.000Z",
     "active": true
   },
   {
@@ -10248,7 +10248,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1000,
-    "registeredAt": "2025-10-25T09:17:00.000Z",
+    "registeredAt": "2022-10-25T09:17:00.000Z",
     "active": true
   },
   {
@@ -10281,7 +10281,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-02-20T11:25:00.000Z",
+    "registeredAt": "2022-02-20T11:25:00.000Z",
     "active": true
   },
   {
@@ -10292,7 +10292,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-11-07T22:11:00.000Z",
+    "registeredAt": "2022-11-07T22:11:00.000Z",
     "active": true
   },
   {
@@ -10303,7 +10303,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-03-09T07:22:00.000Z",
+    "registeredAt": "2022-03-09T07:22:00.000Z",
     "active": true
   },
   {
@@ -10336,7 +10336,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-09-02T06:07:00.000Z",
+    "registeredAt": "2022-09-02T06:07:00.000Z",
     "active": true
   },
   {
@@ -10347,7 +10347,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 355,
-    "registeredAt": "2025-01-19T01:27:00.000Z",
+    "registeredAt": "2022-01-19T01:27:00.000Z",
     "active": true
   },
   {
@@ -10369,7 +10369,7 @@
     "packaging": "pet",
     "deposit": 50,
     "volume": 355,
-    "registeredAt": "2025-08-16T23:51:00.000Z",
+    "registeredAt": "2022-08-16T23:51:00.000Z",
     "active": true
   },
   {
@@ -10424,7 +10424,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 750,
-    "registeredAt": "2025-02-20T12:04:00.000Z",
+    "registeredAt": "2022-02-20T12:04:00.000Z",
     "active": true
   },
   {
@@ -10446,7 +10446,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 500,
-    "registeredAt": "2025-06-24T15:44:00.000Z",
+    "registeredAt": "2022-06-24T15:44:00.000Z",
     "active": true
   },
   {
@@ -10457,7 +10457,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-10-19T14:04:00.000Z",
+    "registeredAt": "2022-10-19T14:04:00.000Z",
     "active": true
   },
   {
@@ -10479,7 +10479,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-12-14T22:38:00.000Z",
+    "registeredAt": "2022-12-14T22:38:00.000Z",
     "active": true
   },
   {
@@ -10490,7 +10490,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-12-25T12:32:00.000Z",
+    "registeredAt": "2022-12-25T12:32:00.000Z",
     "active": true
   },
   {
@@ -10501,7 +10501,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 500,
-    "registeredAt": "2025-03-15T17:06:00.000Z",
+    "registeredAt": "2022-03-15T17:06:00.000Z",
     "active": true
   },
   {
@@ -10545,7 +10545,7 @@
     "packaging": "tetra",
     "deposit": 50,
     "volume": 2000,
-    "registeredAt": "2025-12-04T02:09:00.000Z",
+    "registeredAt": "2022-12-04T02:09:00.000Z",
     "active": true
   },
   {
@@ -10556,7 +10556,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 1500,
-    "registeredAt": "2025-11-27T12:27:00.000Z",
+    "registeredAt": "2022-11-27T12:27:00.000Z",
     "active": true
   },
   {
@@ -10567,7 +10567,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-02-17T05:23:00.000Z",
+    "registeredAt": "2022-02-17T05:23:00.000Z",
     "active": true
   },
   {
@@ -10600,7 +10600,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 355,
-    "registeredAt": "2025-08-07T17:13:00.000Z",
+    "registeredAt": "2022-08-07T17:13:00.000Z",
     "active": true
   },
   {
@@ -10644,7 +10644,7 @@
     "packaging": "can",
     "deposit": 100,
     "volume": 750,
-    "registeredAt": "2025-05-15T11:39:00.000Z",
+    "registeredAt": "2022-05-15T11:39:00.000Z",
     "active": true
   },
   {
@@ -10666,7 +10666,7 @@
     "packaging": "tetra",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-12-26T18:18:00.000Z",
+    "registeredAt": "2022-12-26T18:18:00.000Z",
     "active": true
   },
   {
@@ -10688,7 +10688,7 @@
     "packaging": "pet",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-06-18T05:00:00.000Z",
+    "registeredAt": "2022-06-18T05:00:00.000Z",
     "active": true
   },
   {
@@ -10721,7 +10721,7 @@
     "packaging": "pet",
     "deposit": 200,
     "volume": 1500,
-    "registeredAt": "2025-07-16T06:10:00.000Z",
+    "registeredAt": "2022-07-16T06:10:00.000Z",
     "active": true
   },
   {
@@ -10743,7 +10743,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-01-05T15:28:00.000Z",
+    "registeredAt": "2022-01-05T15:28:00.000Z",
     "active": true
   },
   {
@@ -10754,7 +10754,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 330,
-    "registeredAt": "2025-02-08T12:14:00.000Z",
+    "registeredAt": "2022-02-08T12:14:00.000Z",
     "active": true
   },
   {
@@ -10765,7 +10765,7 @@
     "packaging": "glass",
     "deposit": 50,
     "volume": 1500,
-    "registeredAt": "2025-06-28T14:07:00.000Z",
+    "registeredAt": "2022-06-28T14:07:00.000Z",
     "active": true
   },
   {
@@ -10776,7 +10776,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 330,
-    "registeredAt": "2025-02-01T08:32:00.000Z",
+    "registeredAt": "2022-02-01T08:32:00.000Z",
     "active": true
   },
   {
@@ -10809,7 +10809,7 @@
     "packaging": "can",
     "deposit": 200,
     "volume": 1000,
-    "registeredAt": "2025-05-17T15:21:00.000Z",
+    "registeredAt": "2022-05-17T15:21:00.000Z",
     "active": true
   },
   {
@@ -10842,7 +10842,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 500,
-    "registeredAt": "2025-09-07T04:51:00.000Z",
+    "registeredAt": "2022-09-07T04:51:00.000Z",
     "active": true
   },
   {
@@ -10886,7 +10886,7 @@
     "packaging": "tetra",
     "deposit": 75,
     "volume": 2000,
-    "registeredAt": "2025-11-20T20:01:00.000Z",
+    "registeredAt": "2022-11-20T20:01:00.000Z",
     "active": true
   },
   {
@@ -10941,7 +10941,7 @@
     "packaging": "tetra",
     "deposit": 150,
     "volume": 2000,
-    "registeredAt": "2025-10-15T14:52:00.000Z",
+    "registeredAt": "2022-10-15T14:52:00.000Z",
     "active": true
   },
   {
@@ -10952,7 +10952,7 @@
     "packaging": "can",
     "deposit": 75,
     "volume": 1000,
-    "registeredAt": "2025-08-14T02:47:00.000Z",
+    "registeredAt": "2022-08-14T02:47:00.000Z",
     "active": true
   },
   {
@@ -10974,7 +10974,7 @@
     "packaging": "glass",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-05-01T10:55:00.000Z",
+    "registeredAt": "2022-05-01T10:55:00.000Z",
     "active": true
   },
   {
@@ -10996,7 +10996,7 @@
     "packaging": "glass",
     "deposit": 120,
     "volume": 500,
-    "registeredAt": "2025-08-27T11:48:00.000Z",
+    "registeredAt": "2022-08-27T11:48:00.000Z",
     "active": true
   },
   {
@@ -11018,7 +11018,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 1000,
-    "registeredAt": "2025-06-11T05:35:00.000Z",
+    "registeredAt": "2022-06-11T05:35:00.000Z",
     "active": true
   },
   {
@@ -11029,7 +11029,7 @@
     "packaging": "glass",
     "deposit": 200,
     "volume": 2000,
-    "registeredAt": "2025-06-30T20:45:00.000Z",
+    "registeredAt": "2022-06-30T20:45:00.000Z",
     "active": true
   },
   {
@@ -11062,7 +11062,7 @@
     "packaging": "glass",
     "deposit": 150,
     "volume": 355,
-    "registeredAt": "2025-10-07T00:08:00.000Z",
+    "registeredAt": "2022-10-07T00:08:00.000Z",
     "active": true
   },
   {
@@ -11073,7 +11073,7 @@
     "packaging": "can",
     "deposit": 85,
     "volume": 355,
-    "registeredAt": "2025-06-04T20:28:00.000Z",
+    "registeredAt": "2022-06-04T20:28:00.000Z",
     "active": true
   },
   {
@@ -11084,7 +11084,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 500,
-    "registeredAt": "2025-09-02T10:13:00.000Z",
+    "registeredAt": "2022-09-02T10:13:00.000Z",
     "active": true
   },
   {
@@ -11128,7 +11128,7 @@
     "packaging": "tetra",
     "deposit": 85,
     "volume": 250,
-    "registeredAt": "2025-05-23T03:20:00.000Z",
+    "registeredAt": "2022-05-23T03:20:00.000Z",
     "active": true
   },
   {
@@ -11172,7 +11172,7 @@
     "packaging": "tetra",
     "deposit": 120,
     "volume": 250,
-    "registeredAt": "2025-11-10T14:49:00.000Z",
+    "registeredAt": "2022-11-10T14:49:00.000Z",
     "active": true
   },
   {
@@ -11183,7 +11183,7 @@
     "packaging": "pet",
     "deposit": 85,
     "volume": 330,
-    "registeredAt": "2025-04-03T12:54:00.000Z",
+    "registeredAt": "2022-04-03T12:54:00.000Z",
     "active": true
   },
   {
@@ -11216,7 +11216,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 250,
-    "registeredAt": "2025-02-26T01:10:00.000Z",
+    "registeredAt": "2022-02-26T01:10:00.000Z",
     "active": true
   },
   {
@@ -11238,7 +11238,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 250,
-    "registeredAt": "2025-03-20T11:52:00.000Z",
+    "registeredAt": "2022-03-20T11:52:00.000Z",
     "active": true
   },
   {
@@ -11271,7 +11271,7 @@
     "packaging": "can",
     "deposit": 50,
     "volume": 330,
-    "registeredAt": "2025-06-25T04:26:49.779Z",
+    "registeredAt": "2022-06-25T04:26:49.779Z",
     "active": false
   },
   {
@@ -11282,7 +11282,7 @@
     "packaging": "glass",
     "deposit": 75,
     "volume": 500,
-    "registeredAt": "2025-06-25T04:27:26.243Z",
+    "registeredAt": "2022-06-25T04:27:26.243Z",
     "active": false
   }
 ]
