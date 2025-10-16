@@ -34,7 +34,7 @@ export interface ApiErrorResponse extends BaseApiResponse {
 }
 
 export interface ApiSuccessResponse<T> extends BaseApiResponse {
-  data: T[];
+  data: T;
   total?: number;
 }
 

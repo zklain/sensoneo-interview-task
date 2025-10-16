@@ -11,6 +11,6 @@ export interface FetchProductsParams extends QueryParams {
 
 export async function fetchProducts(
   params?: FetchProductsParams,
-): Promise<ApiSuccessResponse<Product>> {
-  return apiClient.get<ApiSuccessResponse<Product>>("/products", params);
+): Promise<ApiSuccessResponse<Product[]>> {
+  return apiClient.get<ApiSuccessResponse<Product[]>>("/products", params);
 }

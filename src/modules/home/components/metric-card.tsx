@@ -10,7 +10,7 @@ import { AlertCircle } from "lucide-react";
 
 interface MetricCardProps {
   title: string;
-  value: number;
+  value?: number;
   icon: React.ReactNode;
   isLoading?: boolean;
   label: string;
@@ -36,18 +36,20 @@ export function MetricCard({
         </div>
       </CardHeader>
       <CardContent className="flex flex-col gap-3">
-        {error ? (
+        {error && (
           <Alert variant="destructive">
             <AlertCircle />
             <AlertTitle>Error</AlertTitle>
             <AlertDescription>{error}</AlertDescription>
           </Alert>
-        ) : isLoading ? (
+        )}
+        {isLoading && (
           <>
             <Skeleton className="h-9 w-24" />
             <Skeleton className="h-5 w-32" />
           </>
-        ) : (
+        )}
+        {value !== undefined && (
           <>
             <div className="text-3xl font-bold">{value.toLocaleString()}</div>
             <p className="text-sm text-muted-foreground">{label}</p>
