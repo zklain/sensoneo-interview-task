@@ -1,9 +1,11 @@
+export type ProductPackaging = "pet" | "can" | "tetra" | "glass" | "other";
+
 export interface Product {
   id: number;
   companyId: number;
   registeredById: number;
   name: string;
-  packaging: "pet" | "can" | "glass" | "tetra" | "other";
+  packaging: ProductPackaging;
   deposit: number;
   volume: number;
   registeredAt: string;

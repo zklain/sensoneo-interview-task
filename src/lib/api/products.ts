@@ -1,5 +1,10 @@
 import { apiClient } from "./client";
-import type { ApiSuccessResponse, Product, QueryParams } from "./types";
+import type {
+  ApiSuccessResponse,
+  Product,
+  ProductPackaging,
+  QueryParams,
+} from "./types";
 
 export interface FetchProductsParams extends QueryParams {
   page?: number;
@@ -11,7 +16,7 @@ export interface FetchProductsParams extends QueryParams {
 
 export interface CreateProductData {
   name: string;
-  packaging: "pet" | "can" | "glass" | "other";
+  packaging: ProductPackaging;
   deposit: number;
   volume: number;
   companyId: number;

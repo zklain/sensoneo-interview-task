@@ -1,8 +1,9 @@
-import { useEffect } from "react";
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { Controller, useForm } from "react-hook-form";
 
+import { Alert, AlertDescription } from "../../../components/alert";
+import { Button } from "../../../components/button";
 import {
   Dialog,
   DialogContent,
@@ -11,7 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "../../../components/dialog";
-import { Button } from "../../../components/button";
+import { FormItem } from "../../../components/form-item";
 import { Input } from "../../../components/input";
 import { Label } from "../../../components/label";
 import {
@@ -22,12 +23,10 @@ import {
   SelectValue,
 } from "../../../components/select";
 import { createProduct } from "../../../lib/api/products";
-import { Alert, AlertDescription } from "../../../components/alert";
 import {
   createProductSchema,
   type CreateProductFormData,
 } from "../../../lib/validations/product";
-import { FormItem } from "../../../components/form-item";
 import { useCompanies } from "../hooks/useCompanies";
 import { useUsers } from "../hooks/useUsers";
 
@@ -40,37 +39,36 @@ interface AddProductModalProps {
 // todo:
 export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
   const queryClient = useQueryClient();
+  // Fetch companies and users for dropdowns
+  const { data: companiesData, isLoading: isLoadingCompanies } = useCompanies();
+
+  const { data: usersData, isLoading: isLoadingUsers } = useUsers();
 
   const {
-    register,
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { isSubmitting },
     reset,
     control,
   } = useForm<CreateProductFormData>({
     resolver: zodResolver(createProductSchema),
+    mode: "onBlur",
     defaultValues: {
       name: "",
       packaging: "pet",
       deposit: 0,
       volume: 0,
-      companyId: 0,
-      registeredById: 0,
+      companyId: "",
+      registeredById: "",
     },
   });
-
-  // Fetch companies and users for dropdowns
-  const { data: companiesData, isLoading: isLoadingCompanies } = useCompanies();
-
-  const { data: usersData, isLoading: isLoadingUsers } = useUsers();
 
   const mutation = useMutation({
     mutationFn: createProduct,
     onSuccess: () => {
       // Invalidate and refetch all queries that might be affected
       queryClient.invalidateQueries({ queryKey: ["products"] });
-      queryClient.invalidateQueries({ queryKey: ["active-products-count"] });
-      queryClient.invalidateQueries({ queryKey: ["pending-products-count"] });
+      queryClient.invalidateQueries({ queryKey: ["active-products"] });
+      queryClient.invalidateQueries({ queryKey: ["pending-products"] });
 
       // Reset form and close modal
       reset();
@@ -78,17 +76,13 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
     },
   });
 
-  // Reset form when modal closes
-  useEffect(() => {
-    if (!open) {
-      reset();
-      mutation.reset();
-    }
-  }, [open, reset, mutation]);
-
   const onSubmit = (data: CreateProductFormData) => {
     console.log("DATA", data);
-    // mutation.mutate(data);
+    mutation.mutate({
+      ...data,
+      companyId: parseInt(data.companyId),
+      registeredById: parseInt(data.registeredById),
+    });
   };
 
   const companies = companiesData?.data || [];
@@ -117,22 +111,28 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
             )}
 
             {/* Product Name */}
-            <FormItem>
-              <Label htmlFor="name">
-                Product name <span className="text-destructive">*</span>
-              </Label>
-              <Input
-                id="name"
-                {...register("name")}
-                placeholder="e.g. Coca Cola 0.5L"
-                aria-invalid={!!errors.name}
-              />
-              {errors.name && (
-                <p className="text-destructive text-sm">
-                  {errors.name.message}
-                </p>
+            <Controller
+              control={control}
+              name="name"
+              render={({ field, fieldState }) => (
+                <FormItem>
+                  <Label htmlFor="name">
+                    Product name <span className="text-destructive">*</span>
+                  </Label>
+                  <Input
+                    {...field}
+                    id="name"
+                    placeholder="e.g. Coca Cola 0.5L"
+                    aria-invalid={!!fieldState.error}
+                  />
+                  {fieldState.error && (
+                    <p className="text-destructive text-sm">
+                      {fieldState.error.message}
+                    </p>
+                  )}
+                </FormItem>
               )}
-            </FormItem>
+            />
 
             {/* Packaging */}
 
@@ -172,44 +172,59 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
               )}
             />
 
-            {/* Deposit and Volume in a row */}
-            <div className="grid gap-2">
-              <Label htmlFor="deposit">
-                Deposit (cents) <span className="text-destructive">*</span>
-              </Label>
-              <Input
-                id="deposit"
-                type="number"
-                min="1"
-                {...register("deposit", { valueAsNumber: true })}
-                placeholder="e.g. 100"
-                aria-invalid={!!errors.deposit}
-              />
-              {errors.deposit && (
-                <p className="text-destructive text-sm">
-                  {errors.deposit.message}
-                </p>
+            <Controller
+              control={control}
+              name="deposit"
+              render={({ field, fieldState }) => (
+                <FormItem>
+                  <Label htmlFor="deposit">
+                    Deposit (cents) <span className="text-destructive">*</span>
+                  </Label>
+                  <Input
+                    id="deposit"
+                    type="number"
+                    min="1"
+                    placeholder="e.g. 50"
+                    onBlur={field.onBlur}
+                    value={field.value}
+                    onChange={(e) => field.onChange(parseInt(e.target.value))}
+                    aria-invalid={!!fieldState.error}
+                  />
+                  {fieldState.error && (
+                    <p className="text-destructive text-sm">
+                      {fieldState.error.message}
+                    </p>
+                  )}
+                </FormItem>
               )}
-            </div>
+            />
 
-            <div className="grid gap-2">
-              <Label htmlFor="volume">
-                Volume (ml) <span className="text-destructive">*</span>
-              </Label>
-              <Input
-                id="volume"
-                type="number"
-                min="1"
-                {...register("volume", { valueAsNumber: true })}
-                placeholder="e.g. 500"
-                aria-invalid={!!errors.volume}
-              />
-              {errors.volume && (
-                <p className="text-destructive text-sm">
-                  {errors.volume.message}
-                </p>
+            <Controller
+              control={control}
+              name="volume"
+              render={({ field, fieldState }) => (
+                <FormItem>
+                  <Label htmlFor="volume">
+                    Volume (ml) <span className="text-destructive">*</span>
+                  </Label>
+                  <Input
+                    id="volume"
+                    type="number"
+                    min="1"
+                    onBlur={field.onBlur}
+                    value={field.value}
+                    onChange={(e) => field.onChange(parseInt(e.target.value))}
+                    placeholder="e.g. 500ml"
+                    aria-invalid={!!fieldState.error}
+                  />
+                  {fieldState.error && (
+                    <p className="text-destructive text-sm">
+                      {fieldState.error.message}
+                    </p>
+                  )}
+                </FormItem>
               )}
-            </div>
+            />
 
             {/* Company */}
             <Controller
@@ -222,12 +237,12 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
                   </Label>
                   <Select
                     value={field.value.toString()}
-                    onValueChange={(value) => field.onChange(parseInt(value))}
+                    onValueChange={(value) => field.onChange(value)}
                   >
                     <SelectTrigger
                       id="companyId"
-                      className="w-[180px]"
-                      aria-invalid={Boolean(fieldState.error?.message)}
+                      className="w-[250px]"
+                      aria-invalid={Boolean(fieldState.error)}
                     >
                       <SelectValue placeholder="Select a company" />
                     </SelectTrigger>
@@ -263,11 +278,11 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
                   <Select
                     {...field}
                     value={field.value.toString()}
-                    onValueChange={(value) => field.onChange(parseInt(value))}
+                    onValueChange={(value) => field.onChange(value)}
                   >
                     <SelectTrigger
                       id="company"
-                      className="w-[180px]"
+                      className="w-[250px]"
                       aria-invalid={Boolean(fieldState.error?.message)}
                     >
                       <SelectValue placeholder="Select a user" />

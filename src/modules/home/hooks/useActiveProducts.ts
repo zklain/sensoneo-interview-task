@@ -8,7 +8,7 @@ import {
 
 export function useActiveProducts() {
   return useQuery<ApiSuccessResponse<Product[]>, ApiErrorResponse>({
-    queryKey: ["products", { active: true }],
+    queryKey: ["active-products"],
     queryFn: () => fetchProducts({ active: true }),
   });
 }

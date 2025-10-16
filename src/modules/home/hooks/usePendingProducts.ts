@@ -8,7 +8,7 @@ import {
 
 export function usePendingProducts() {
   return useQuery<ApiSuccessResponse<Product[]>, ApiErrorResponse>({
-    queryKey: ["products", { active: false }],
+    queryKey: ["pending-products"],
     queryFn: () => fetchProducts({ active: false }),
   });
 }
