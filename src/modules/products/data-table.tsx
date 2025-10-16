@@ -108,11 +108,12 @@ export const columns: ColumnDef<Product>[] = [
       );
     },
     cell: ({ row }) => {
-      const deposit = row.getValue("deposit") as number;
+      const depositInCents = row.getValue("deposit") as number;
+      const depositInDollars = depositInCents / 100;
       const formatted = new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "USD",
-      }).format(deposit);
+      }).format(depositInDollars);
       return <div>{formatted}</div>;
     },
   },
