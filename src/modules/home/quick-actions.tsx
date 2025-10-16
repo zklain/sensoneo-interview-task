@@ -28,7 +28,7 @@ export function QuickActions() {
                 View all products
               </NavLink>
             </Button>
-            <Button onClick={() => setIsModalOpen(true)}>
+            <Button type="button" onClick={() => setIsModalOpen(true)}>
               <Plus />
               Add new product
             </Button>
