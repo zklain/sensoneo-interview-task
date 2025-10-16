@@ -35,7 +35,7 @@ export interface ApiErrorResponse extends BaseApiResponse {
 
 export interface ApiSuccessResponse<T> extends BaseApiResponse {
   data: T[];
-  total: number;
+  total?: number;
 }
 
 export type QueryParams = Record<string, string | number | boolean | undefined>;

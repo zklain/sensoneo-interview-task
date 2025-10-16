@@ -40,7 +40,7 @@ async function apiFetch<T>({
     throw new Error(json.error);
   }
 
-  return json.data;
+  return json;
 }
 
 export const apiClient = {
