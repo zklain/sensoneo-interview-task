@@ -2,6 +2,7 @@ import { Package } from "lucide-react";
 
 import { PageHeader } from "../../components/page-header";
 import { Overview } from "./overview";
+import { QuickActions } from "./quick-actions";
 
 export function HomePage() {
   return (
@@ -13,6 +14,7 @@ export function HomePage() {
       />
       <div className="flex flex-col gap-6">
         <Overview />
+        <QuickActions />
       </div>
     </div>
   );

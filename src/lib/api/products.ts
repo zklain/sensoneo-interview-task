@@ -9,8 +9,23 @@ export interface FetchProductsParams extends QueryParams {
   order?: "asc" | "desc";
 }
 
+export interface CreateProductData {
+  name: string;
+  packaging: "pet" | "can" | "glass" | "other";
+  deposit: number;
+  volume: number;
+  companyId: number;
+  registeredById: number;
+}
+
 export async function fetchProducts(
   params?: FetchProductsParams,
 ): Promise<ApiSuccessResponse<Product[]>> {
   return apiClient.get<ApiSuccessResponse<Product[]>>("/products", params);
+}
+
+export async function createProduct(
+  data: CreateProductData,
+): Promise<ApiSuccessResponse<Product>> {
+  return apiClient.post<ApiSuccessResponse<Product>>("/products", data);
 }
