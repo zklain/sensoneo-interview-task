@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { Controller, useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
 
 import {
   Dialog,
@@ -19,50 +21,48 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../../../components/select";
-import {
-  createProduct,
-  type CreateProductData,
-} from "../../../lib/api/products";
-import { fetchCompanies } from "../../../lib/api/companies";
-import { fetchUsers } from "../../../lib/api/users";
+import { createProduct } from "../../../lib/api/products";
 import { Alert, AlertDescription } from "../../../components/alert";
+import {
+  createProductSchema,
+  type CreateProductFormData,
+} from "../../../lib/validations/product";
+import { FormItem } from "../../../components/form-item";
+import { useCompanies } from "../hooks/useCompanies";
+import { useUsers } from "../hooks/useUsers";
 
 interface AddProductModalProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
 
-// todo: zod validation
-// todo: useForm
-// todo: form fields
-// todo: submitting state
-// todo: error state
+// todo: loading for data
+// todo:
 export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
   const queryClient = useQueryClient();
 
-  const [formData, setFormData] = useState<CreateProductData>({
-    name: "",
-    packaging: "pet",
-    deposit: 0,
-    volume: 0,
-    companyId: 0,
-    registeredById: 0,
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+    reset,
+    control,
+  } = useForm<CreateProductFormData>({
+    resolver: zodResolver(createProductSchema),
+    defaultValues: {
+      name: "",
+      packaging: "pet",
+      deposit: 0,
+      volume: 0,
+      companyId: 0,
+      registeredById: 0,
+    },
   });
-
-  const [errors, setErrors] = useState<
-    Partial<Record<keyof CreateProductData, string>>
-  >({});
 
   // Fetch companies and users for dropdowns
-  const { data: companiesData } = useQuery({
-    queryKey: ["companies"],
-    queryFn: fetchCompanies,
-  });
+  const { data: companiesData, isLoading: isLoadingCompanies } = useCompanies();
 
-  const { data: usersData } = useQuery({
-    queryKey: ["users"],
-    queryFn: fetchUsers,
-  });
+  const { data: usersData, isLoading: isLoadingUsers } = useUsers();
 
   const mutation = useMutation({
     mutationFn: createProduct,
@@ -73,65 +73,22 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
       queryClient.invalidateQueries({ queryKey: ["pending-products-count"] });
 
       // Reset form and close modal
-      setFormData({
-        name: "",
-        packaging: "pet",
-        deposit: 0,
-        volume: 0,
-        companyId: 0,
-        registeredById: 0,
-      });
-      setErrors({});
+      reset();
       onOpenChange(false);
     },
   });
 
-  const validateForm = (): boolean => {
-    const newErrors: Partial<Record<keyof CreateProductData, string>> = {};
-
-    if (!formData.name.trim()) {
-      newErrors.name = "Product name is required";
+  // Reset form when modal closes
+  useEffect(() => {
+    if (!open) {
+      reset();
+      mutation.reset();
     }
+  }, [open, reset, mutation]);
 
-    if (formData.deposit <= 0) {
-      newErrors.deposit = "Deposit must be greater than 0";
-    }
-
-    if (formData.volume <= 0) {
-      newErrors.volume = "Volume must be greater than 0";
-    }
-
-    if (!formData.companyId || formData.companyId === 0) {
-      newErrors.companyId = "Please select a company";
-    }
-
-    if (!formData.registeredById || formData.registeredById === 0) {
-      newErrors.registeredById = "Please select a user";
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-
-    if (!validateForm()) {
-      return;
-    }
-
-    mutation.mutate(formData);
-  };
-
-  const handleInputChange = (
-    field: keyof CreateProductData,
-    value: string | number,
-  ) => {
-    setFormData((prev) => ({ ...prev, [field]: value }));
-    // Clear error for this field when user starts typing
-    if (errors[field]) {
-      setErrors((prev) => ({ ...prev, [field]: undefined }));
-    }
+  const onSubmit = (data: CreateProductFormData) => {
+    console.log("DATA", data);
+    // mutation.mutate(data);
   };
 
   const companies = companiesData?.data || [];
@@ -147,7 +104,7 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
           </DialogDescription>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit}>
+        <form id="create-product" onSubmit={handleSubmit(onSubmit)}>
           <div className="grid gap-4 py-4">
             {mutation.isError && (
               <Alert variant="destructive">
@@ -160,144 +117,177 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
             )}
 
             {/* Product Name */}
-            <div className="grid gap-2">
+            <FormItem>
               <Label htmlFor="name">
                 Product name <span className="text-destructive">*</span>
               </Label>
               <Input
                 id="name"
-                value={formData.name}
-                onChange={(e) => handleInputChange("name", e.target.value)}
+                {...register("name")}
                 placeholder="e.g. Coca Cola 0.5L"
                 aria-invalid={!!errors.name}
               />
               {errors.name && (
-                <p className="text-destructive text-sm">{errors.name}</p>
+                <p className="text-destructive text-sm">
+                  {errors.name.message}
+                </p>
               )}
-            </div>
+            </FormItem>
 
             {/* Packaging */}
-            <div className="grid gap-2">
-              <Label htmlFor="packaging">
-                Packaging <span className="text-destructive">*</span>
-              </Label>
-              <Select
-                value={formData.packaging}
-                onValueChange={(value) => handleInputChange("packaging", value)}
-              >
-                <SelectTrigger id="packaging">
-                  <SelectValue placeholder="Select packaging type" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="pet">PET</SelectItem>
-                  <SelectItem value="can">Can</SelectItem>
-                  <SelectItem value="glass">Glass</SelectItem>
-                  <SelectItem value="other">Other</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
+
+            <Controller
+              control={control}
+              name="packaging"
+              render={({ field, fieldState }) => (
+                <FormItem>
+                  <Label htmlFor="packaging">
+                    Packaging <span className="text-destructive">*</span>
+                  </Label>
+                  <Select
+                    value={field.value}
+                    onValueChange={(value) => field.onChange(value)}
+                  >
+                    <SelectTrigger
+                      className="w-[180px]"
+                      id="packaging"
+                      aria-invalid={Boolean(fieldState.error?.message)}
+                    >
+                      <SelectValue placeholder="Select packaging type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="pet">PET</SelectItem>
+                      <SelectItem value="can">Can</SelectItem>
+                      <SelectItem value="glass">Glass</SelectItem>
+                      <SelectItem value="tetra">Glass</SelectItem>
+                      <SelectItem value="other">Other</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  {fieldState.error && (
+                    <p className="text-destructive text-sm">
+                      {fieldState.error.message}
+                    </p>
+                  )}
+                </FormItem>
+              )}
+            />
 
             {/* Deposit and Volume in a row */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="grid gap-2">
-                <Label htmlFor="deposit">
-                  Deposit (cents) <span className="text-destructive">*</span>
-                </Label>
-                <Input
-                  id="deposit"
-                  type="number"
-                  min="1"
-                  value={formData.deposit || ""}
-                  onChange={(e) =>
-                    handleInputChange("deposit", Number(e.target.value))
-                  }
-                  placeholder="e.g. 100"
-                  aria-invalid={!!errors.deposit}
-                />
-                {errors.deposit && (
-                  <p className="text-destructive text-sm">{errors.deposit}</p>
-                )}
-              </div>
-
-              <div className="grid gap-2">
-                <Label htmlFor="volume">
-                  Volume (ml) <span className="text-destructive">*</span>
-                </Label>
-                <Input
-                  id="volume"
-                  type="number"
-                  min="1"
-                  value={formData.volume || ""}
-                  onChange={(e) =>
-                    handleInputChange("volume", Number(e.target.value))
-                  }
-                  placeholder="e.g. 500"
-                  aria-invalid={!!errors.volume}
-                />
-                {errors.volume && (
-                  <p className="text-destructive text-sm">{errors.volume}</p>
-                )}
-              </div>
-            </div>
-
-            {/* Company */}
             <div className="grid gap-2">
-              <Label htmlFor="company">
-                Company <span className="text-destructive">*</span>
+              <Label htmlFor="deposit">
+                Deposit (cents) <span className="text-destructive">*</span>
               </Label>
-              <Select
-                value={formData.companyId.toString()}
-                onValueChange={(value) =>
-                  handleInputChange("companyId", Number(value))
-                }
-              >
-                <SelectTrigger id="company" aria-invalid={!!errors.companyId}>
-                  <SelectValue placeholder="Select a company" />
-                </SelectTrigger>
-                <SelectContent>
-                  {companies.map((company) => (
-                    <SelectItem key={company.id} value={company.id.toString()}>
-                      {company.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              {errors.companyId && (
-                <p className="text-destructive text-sm">{errors.companyId}</p>
-              )}
-            </div>
-
-            {/* Registered By */}
-            <div className="grid gap-2">
-              <Label htmlFor="registeredBy">
-                Registered by <span className="text-destructive">*</span>
-              </Label>
-              <Select
-                value={formData.registeredById.toString()}
-                onValueChange={(value) =>
-                  handleInputChange("registeredById", Number(value))
-                }
-              >
-                <SelectTrigger
-                  id="registeredBy"
-                  aria-invalid={!!errors.registeredById}
-                >
-                  <SelectValue placeholder="Select a user" />
-                </SelectTrigger>
-                <SelectContent>
-                  {users.map((user) => (
-                    <SelectItem key={user.id} value={user.id.toString()}>
-                      {user.firstName} {user.lastName}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              {errors.registeredById && (
+              <Input
+                id="deposit"
+                type="number"
+                min="1"
+                {...register("deposit", { valueAsNumber: true })}
+                placeholder="e.g. 100"
+                aria-invalid={!!errors.deposit}
+              />
+              {errors.deposit && (
                 <p className="text-destructive text-sm">
-                  {errors.registeredById}
+                  {errors.deposit.message}
                 </p>
               )}
             </div>
+
+            <div className="grid gap-2">
+              <Label htmlFor="volume">
+                Volume (ml) <span className="text-destructive">*</span>
+              </Label>
+              <Input
+                id="volume"
+                type="number"
+                min="1"
+                {...register("volume", { valueAsNumber: true })}
+                placeholder="e.g. 500"
+                aria-invalid={!!errors.volume}
+              />
+              {errors.volume && (
+                <p className="text-destructive text-sm">
+                  {errors.volume.message}
+                </p>
+              )}
+            </div>
+
+            {/* Company */}
+            <Controller
+              control={control}
+              name="companyId"
+              render={({ field, fieldState }) => (
+                <FormItem>
+                  <Label htmlFor="companyId">
+                    Packaging <span className="text-destructive">*</span>
+                  </Label>
+                  <Select
+                    value={field.value.toString()}
+                    onValueChange={(value) => field.onChange(parseInt(value))}
+                  >
+                    <SelectTrigger
+                      id="companyId"
+                      className="w-[180px]"
+                      aria-invalid={Boolean(fieldState.error?.message)}
+                    >
+                      <SelectValue placeholder="Select a company" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {companies.map((company) => (
+                        <SelectItem
+                          key={company.id}
+                          value={company.id.toString()}
+                        >
+                          {company.name}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  {fieldState.error && (
+                    <p className="text-destructive text-sm">
+                      {fieldState.error.message}
+                    </p>
+                  )}
+                </FormItem>
+              )}
+            />
+
+            {/* Registered By */}
+            <Controller
+              control={control}
+              name="registeredById"
+              render={({ field, fieldState }) => (
+                <FormItem>
+                  <Label htmlFor="registeredBy">
+                    Packaging <span className="text-destructive">*</span>
+                  </Label>
+                  <Select
+                    {...field}
+                    value={field.value.toString()}
+                    onValueChange={(value) => field.onChange(parseInt(value))}
+                  >
+                    <SelectTrigger
+                      id="company"
+                      className="w-[180px]"
+                      aria-invalid={Boolean(fieldState.error?.message)}
+                    >
+                      <SelectValue placeholder="Select a user" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {users.map((user) => (
+                        <SelectItem key={user.id} value={user.id.toString()}>
+                          {user.firstName} {user.lastName}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  {fieldState.error && (
+                    <p className="text-destructive text-sm">
+                      {fieldState.error.message}
+                    </p>
+                  )}
+                </FormItem>
+              )}
+            />
           </div>
 
           <DialogFooter>
@@ -305,11 +295,14 @@ export function AddProductModal({ open, onOpenChange }: AddProductModalProps) {
               type="button"
               variant="outline"
               onClick={() => onOpenChange(false)}
+              disabled={isSubmitting}
             >
               Cancel
             </Button>
-            <Button type="submit" disabled={mutation.isPending}>
-              {mutation.isPending ? "Creating..." : "Create product"}
+            <Button type="submit" disabled={isSubmitting || mutation.isPending}>
+              {isSubmitting || mutation.isPending
+                ? "Creating..."
+                : "Create product"}
             </Button>
           </DialogFooter>
         </form>
