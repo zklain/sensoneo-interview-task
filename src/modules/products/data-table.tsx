@@ -157,9 +157,15 @@ export const columns: ColumnDef<Product>[] = [
 
 interface DataTableProps {
   data: Product[];
+  activeFilter: boolean | undefined;
+  onActiveFilterChange: (filter: boolean | undefined) => void;
 }
 
-export function DataTable({ data }: DataTableProps) {
+export function DataTable({
+  data,
+  activeFilter,
+  onActiveFilterChange,
+}: DataTableProps) {
   const [sorting, setSorting] = React.useState<SortingState>([]);
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     [],
@@ -187,9 +193,6 @@ export function DataTable({ data }: DataTableProps) {
     },
   });
 
-  const activeFilterValue =
-    (table.getColumn("active")?.getFilterValue() as string) ?? "all";
-
   return (
     <div className="w-full">
       <div className="flex flex-wrap items-center gap-4 py-4">
@@ -206,27 +209,23 @@ export function DataTable({ data }: DataTableProps) {
           <span className="text-sm font-medium">Status:</span>
           <div className="flex gap-1">
             <Button
-              variant={activeFilterValue === "all" ? "default" : "outline"}
+              variant={activeFilter === undefined ? "default" : "outline"}
               size="sm"
-              onClick={() => table.getColumn("active")?.setFilterValue("all")}
+              onClick={() => onActiveFilterChange(undefined)}
             >
               All
             </Button>
             <Button
-              variant={activeFilterValue === "active" ? "default" : "outline"}
+              variant={activeFilter === true ? "default" : "outline"}
               size="sm"
-              onClick={() =>
-                table.getColumn("active")?.setFilterValue("active")
-              }
+              onClick={() => onActiveFilterChange(true)}
             >
               Active
             </Button>
             <Button
-              variant={activeFilterValue === "pending" ? "default" : "outline"}
+              variant={activeFilter === false ? "default" : "outline"}
               size="sm"
-              onClick={() =>
-                table.getColumn("active")?.setFilterValue("pending")
-              }
+              onClick={() => onActiveFilterChange(false)}
             >
               Pending
             </Button>

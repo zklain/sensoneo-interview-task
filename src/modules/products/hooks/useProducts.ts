@@ -4,11 +4,12 @@ import {
   fetchProducts,
   type Product,
   type ApiErrorResponse,
+  type FetchProductsParams,
 } from "../../../lib/api";
 
-export function useProducts() {
+export function useProducts(params?: FetchProductsParams) {
   return useQuery<ApiSuccessResponse<Product[]>, ApiErrorResponse>({
-    queryKey: ["products"],
-    queryFn: () => fetchProducts({}),
+    queryKey: ["products", params],
+    queryFn: () => fetchProducts(params),
   });
 }

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Milk } from "lucide-react";
 
 import { PageHeader } from "../../components/page-header";
@@ -6,7 +7,13 @@ import { useProducts } from "./hooks/useProducts";
 import { Alert, AlertDescription } from "../../components/alert";
 
 export function ProductsPage() {
-  const { data, isLoading, error } = useProducts();
+  const [activeFilter, setActiveFilter] = useState<boolean | undefined>(
+    undefined,
+  );
+
+  const { data, isLoading, error } = useProducts(
+    activeFilter !== undefined ? { active: activeFilter } : undefined,
+  );
 
   return (
     <div>
@@ -30,7 +37,13 @@ export function ProductsPage() {
         </Alert>
       )}
 
-      {data?.data && <DataTable data={data.data} />}
+      {data?.data && (
+        <DataTable
+          data={data.data}
+          activeFilter={activeFilter}
+          onActiveFilterChange={setActiveFilter}
+        />
+      )}
     </div>
   );
 }
