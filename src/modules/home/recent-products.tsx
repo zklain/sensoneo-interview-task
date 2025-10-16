@@ -1,16 +1,11 @@
-import type {
-  Product,
-  ApiSuccessResponse,
-  ApiErrorResponse,
-} from "../../lib/api";
-import { fetchProducts } from "../../lib/api";
+import type { Product } from "../../lib/api";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
 } from "../../components/card";
-import { useQuery } from "@tanstack/react-query";
+import { useRecentProducts } from "./hooks/useRecentProducts";
 
 function ProductItem({
   name,
@@ -58,14 +53,7 @@ function ProductItemSkeleton() {
 }
 
 export function RecentProducts() {
-  const { data, isLoading } = useQuery<
-    ApiSuccessResponse<Product[]>,
-    ApiErrorResponse
-  >({
-    queryKey: ["recent-products"],
-    queryFn: () =>
-      fetchProducts({ limit: 5, sort: "registeredAt", order: "desc" }),
-  });
+  const { data, isLoading, isError, error } = useRecentProducts();
 
   return (
     <section className="w-full">
@@ -75,17 +63,22 @@ export function RecentProducts() {
         </CardHeader>
         <CardContent>
           <div className="flex flex-col gap-6 pt-6">
-            {isLoading ? (
+            {isLoading && (
               <>
                 {Array.from({ length: 5 }).map((_, i) => (
                   <ProductItemSkeleton key={i} />
                 ))}
               </>
-            ) : (
-              data?.data.map((product) => (
-                <ProductItem key={product.id} {...product} />
-              ))
             )}
+            {isError && (
+              <div className="text-sm text-destructive">
+                Failed to load recent products:{" "}
+                {error?.error || "Unknown error"}
+              </div>
+            )}
+            {data?.data.map((product: Product) => (
+              <ProductItem key={product.id} {...product} />
+            ))}
           </div>
         </CardContent>
       </Card>
